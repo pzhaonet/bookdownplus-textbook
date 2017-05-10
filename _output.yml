@@ -15,6 +15,12 @@ bookdown::gitbook:
     toc:
       collapse: none
       before: |
-        <li><a href="./">R bookdown+ Textbook (by Peng Zhao))</a></li>
+        <li><a href="http://pzhao.org">R bookdown-plus Textbook</a></li>
       after: |
         <li><a href="https://bookdown.org/yihui/bookdown/" target="blank">Supported by R bookdown</a></li>
+    download: [pdf, epub]
+    edit: https://github.com/dapengde/bookdown-plus-textbook/edit/master/%s
+    sharing:
+      github: yes
+      facebook: yes
+bookdown::epub_book: default
