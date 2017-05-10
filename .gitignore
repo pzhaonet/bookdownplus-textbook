@@ -7,8 +7,5 @@ _bookdown_files/
 _book/
 help/
 _readme.*
-_bookdown.yml
-body.*
-index.*
 fun/extract.R
 rsconnect/
