@@ -1,8 +1,15 @@
+# Prelogue {-}
+
+# (PART) Basic{-}
 # Introduction
 
 `bookdown+`? Hmm...sounds like something related to the R[@R-base] package `bookdown` [@R-bookdown]? 
 
 Yes, you **_R_** right. Everyone knows that `bookdown` is an excellent package for authoring books on programming languages. But it is only one side of the coin.  It can do more than expected. `bookdown` smells like a tasty cake. I have been expecting someone to cut it. Now I am helping myself. Therefore I am developing `bookdown+`.
+
+\m{It IS tasty!}
+
+This book which you are reading was exactly produced by `bookdown+`.
 
 `bookdown+` is an extension of `bookdown`. It is a collection of multiple templates, which I collected years ago on the basis of \LaTeX, and have been tailoring them so that I can work happily under the umbrella of `bookdown`. `bookdown+` shows you the other side of the coin, which helps you write academic journal articles, guitar books, chemical equations, mails, calendars, and diaries.
 
@@ -67,24 +74,16 @@ Write your own text in `body.Rmd`, and build your own lovely book.
 
 Have fun!
 
+# R, RStudio and bookdown
+# \(\LaTeX\) and Pandoc
+# Workflow
+# (PART) Lifestyle{-}
+# Journal
 
-# Academic articles
-
-```{r img1, fig.cap='caption', out.width='80%', fig.align='center', echo=FALSE}
-knitr::include_graphics("images/bookdown+article.png")
+```{r imgjournal, fig.cap='Journal', out.width='80%', fig.align='center', echo=FALSE}
+knitr::include_graphics("images/bookdown+journal.png")
 ```
-
-# Letter
-
-```{r imgmail, fig.cap='Mail', out.width='80%', fig.align='center', echo=FALSE}
-knitr::include_graphics("images/bookdown+mail.png")
-```
-
-# Chemistry
-
-```{r imgchemistry, fig.cap='Chemistry', out.width='80%', fig.align='center', echo=FALSE}
-knitr::include_graphics("images/bookdown+chem.png")
-```
+# Peom
 
 # Music
 
@@ -92,18 +91,40 @@ knitr::include_graphics("images/bookdown+chem.png")
 knitr::include_graphics("images/bookdown+guitar.png")
 ```
 
-# Journal
 
-```{r imgjournal, fig.cap='Journal', out.width='80%', fig.align='center', echo=FALSE}
-knitr::include_graphics("images/bookdown+journal.png")
+# (PART) Office{-}
+# Letter
+
+```{r imgmail, fig.cap='Mail', out.width='80%', fig.align='center', echo=FALSE}
+knitr::include_graphics("images/bookdown+mail.png")
 ```
-
 
 # Calendar
 
 ```{r imgcalendar, fig.cap='Calendar', out.width='80%', fig.align='center', echo=FALSE}
 knitr::include_graphics("images/bookdown+calendar.png")
 ```
+
+# (PART) Academic{-}
+# Academic articles
+
+text Fig. \@ref(fig:imgarticle).
+
+```{r imgarticle, fig.cap='Article', out.width='80%', fig.align='center', echo=FALSE}
+knitr::include_graphics("images/bookdown+article.png")
+```
+
+# Thesis
+
+# Poster
+
+# Chemistry
+
+```{r imgchemistry, fig.cap='Chemistry', out.width='80%', fig.align='center', echo=FALSE}
+knitr::include_graphics("images/bookdown+chem.png")
+```
+
+
 
 # Chinese
 

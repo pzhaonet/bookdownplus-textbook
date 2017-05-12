@@ -73,7 +73,7 @@
 \usepackage{amsmath} % For typesetting math
 \usepackage{graphicx} % Required for including images
 \usepackage{etoolbox}
-\usepackage[norule]{footmisc} % Removes the horizontal rule from footnotes
+%\usepackage[norule]{footmisc} % Removes the horizontal rule from footnotes
 \usepackage{lastpage} % Counts the number of pages of the document
 
 \usepackage[dvipsnames]{xcolor}  % Allows the definition of hex colors
@@ -90,7 +90,7 @@
 \setcapwidth[r]{10cm} % Right align caption text
 \setkomafont{footnote}{\sffamily} % Footnotes in sans serif
 
-\deffootnote[4cm]{4cm}{1em}{\textsuperscript{\thefootnotemark}} % Indent footnotes to line up with text
+%\deffootnote[4cm]{4cm}{1em}{\textsuperscript{\thefootnotemark}} % Indent footnotes to line up with text
 
 \DeclareFixedFont{\textcap}{T1}{phv}{bx}{n}{1.5cm} % Font for main title: Helvetica 1.5 cm
 \DeclareFixedFont{\textaut}{T1}{phv}{bx}{n}{0.8cm} % Font for author name: Helvetica 0.8 cm
@@ -115,9 +115,9 @@
 \renewcommand*{\chapterpagestyle}{scrheadings}
 
 % These lines make it so every figure and equation in the document is numbered consecutively rather than restarting at 1 for each lab day - comment them out to remove this behavior
-\usepackage{chngcntr}
-\counterwithout{figure}{labday}
-\counterwithout{equation}{labday}
+% \usepackage{chngcntr}
+% \counterwithout{figure}{labday}
+% \counterwithout{equation}{labday}
 
 % Hyperlink configuration
 \usepackage[
@@ -228,9 +228,18 @@ $endif$
 
 \printindex
 \tableofcontents % Table of contents
+
+$if(lot)$
+\listoftables
+$endif$
+$if(lof)$
+\listoffigures
+$endif$
+
+
 \newpage % Start lab look on a new page
 
-\begin{addmargin}[4cm]{0cm} % Makes the text width much shorter for a compact look
+%\begin{addmargin}[4cm]{0cm} % Makes the text width much shorter for a compact look
 
 \pagestyle{scrheadings} % Begin using headers
 
@@ -243,7 +252,7 @@ $body$
 %\include{body}
 
 %----------------------------------------------------------------------------------------
-\end{addmargin}
+%\end{addmargin}
 
 %----------------------------------------------------------------------------------------
 %	BIBLIOGRAPHY

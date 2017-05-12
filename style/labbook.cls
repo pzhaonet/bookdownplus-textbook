@@ -504,10 +504,10 @@
   \thesubsubsection.\@arabic\c@paragraph}%
 \renewcommand*\thesubparagraph{%
   \theparagraph.\@arabic\c@subparagraph}%
-\@addtoreset{figure}{labday}%
-\@addtoreset{table}{labday}%
-\renewcommand*\thefigure{%
-  \@arabic\c@figure}%
+%\@addtoreset{figure}{labday}%
+%\@addtoreset{table}{labday}%
+%\renewcommand*\thefigure{%
+%  \@arabic\c@figure}%
 \renewcommand*\thetable{%
   \@arabic\c@table}%
 \let\l@labday\l@chapter%
@@ -575,12 +575,12 @@
       \theHexperiment.\arabic{subexperiment}}%
     \renewcommand*\theHsubsubsection{%
       \theHsubexperiment.\arabic{subsubsection}}%
-    \renewcommand*\theHfigure{%
-      \theHlabday.\arabic{figure}}%
+%    \renewcommand*\theHfigure{%
+%      \theHlabday.\arabic{figure}}%
     \renewcommand*\theHtable{%
       \theHlabday.\arabic{table}}%
-    \newcommand*\theHsubfigure{%
-      \theHfigure.\arabic{subfigure}}
+%    \newcommand*\theHsubfigure{%
+%      \theHfigure.\arabic{subfigure}}
   }%
   \AtBeginDocument{%
     \@ifpackageloaded{hyperref}{}{%
