@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2017.5.12)  12 MAY 2017 21:40
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2017.5.12)  14 MAY 2017 16:39
 entering extended mode
 **bookdown-plus.tex
 (D:\googledrive\a1\bookdown-plus-textbook\bookdown-plus.tex
@@ -592,7 +592,24 @@ Package: prelim2e 2009/05/29 v1.3 prelim2e Package (MS)
 ("D:\Program Files\CTEX\MiKTeX\tex\latex\ms\everyshi.sty"
 Package: everyshi 2001/05/15 v3.00 EveryShipout Package (MS)
 )) ("D:\Program Files\CTEX\MiKTeX\tex\latex\carlisle\remreset.sty")) ("D:\Progr
-am Files\CTEX\MiKTeX\tex\latex\ams\classes\amsthm.sty"
+am Files\CTEX\MiKTeX\tex\latex\fancyvrb\fancyvrb.sty"
+Package: fancyvrb 2008/02/07
+
+Style option: `fancyvrb' v2.7a, with DG/SPQR fixes, and firstline=lastline fix 
+<2008/02/07> (tvz)
+\FV@CodeLineNo=\count139
+\FV@InFile=\read1
+\FV@TabBox=\box32
+\c@FancyVerbLine=\count140
+\FV@StepNumber=\count141
+\FV@OutFile=\write3
+) ("D:\Program Files\CTEX\MiKTeX\tex\latex\framed\framed.sty"
+Package: framed 2007/10/04 v 0.95: framed or shaded text with page breaks
+\fb@frw=\dimen155
+\fb@frh=\dimen156
+\FrameRule=\dimen157
+\FrameSep=\dimen158
+) ("D:\Program Files\CTEX\MiKTeX\tex\latex\ams\classes\amsthm.sty"
 Package: amsthm 2004/08/06 v2.20
 \thm@style=\toks28
 \thm@bodyfont=\toks29
@@ -604,43 +621,43 @@ Package: amsthm 2004/08/06 v2.20
 \thm@headsep=\skip116
 \dth@everypar=\toks33
 )
-\c@theorem=\count139
-\c@lemma=\count140
-\c@definition=\count141
-\c@corollary=\count142
-\c@proposition=\count143
-\c@example=\count144
+\c@theorem=\count142
+\c@lemma=\count143
+\c@definition=\count144
+\c@corollary=\count145
+\c@proposition=\count146
+\c@example=\count147
 (D:\googledrive\a1\bookdown-plus-textbook\bookdown-plus.aux)
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 302.
-LaTeX Font Info:    ... okay on input line 302.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 302.
-LaTeX Font Info:    ... okay on input line 302.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 302.
-LaTeX Font Info:    ... okay on input line 302.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 302.
-LaTeX Font Info:    ... okay on input line 302.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 302.
-LaTeX Font Info:    ... okay on input line 302.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 302.
-LaTeX Font Info:    ... okay on input line 302.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 302.
-LaTeX Font Info:    ... okay on input line 302.
-LaTeX Font Info:    Try loading font information for T1+pplj on input line 302.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 345.
+LaTeX Font Info:    ... okay on input line 345.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 345.
+LaTeX Font Info:    ... okay on input line 345.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 345.
+LaTeX Font Info:    ... okay on input line 345.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 345.
+LaTeX Font Info:    ... okay on input line 345.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 345.
+LaTeX Font Info:    ... okay on input line 345.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 345.
+LaTeX Font Info:    ... okay on input line 345.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 345.
+LaTeX Font Info:    ... okay on input line 345.
+LaTeX Font Info:    Try loading font information for T1+pplj on input line 345.
 
 ("D:\Program Files\CTEX\MiKTeX\tex\latex\psnfss\t1pplj.fd"
 File: t1pplj.fd 2004/09/06 font definitions for T1/pplj.
 ) ("D:\Program Files\CTEX\MiKTeX\tex\context\base\supp-pdf.mkii"
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count145
-\scratchdimen=\dimen155
-\scratchbox=\box32
-\nofMPsegments=\count146
-\nofMParguments=\count147
+\scratchcounter=\count148
+\scratchdimen=\dimen159
+\scratchbox=\box33
+\nofMPsegments=\count149
+\nofMParguments=\count150
 \everyMPshowfont=\toks34
-\MPscratchCnt=\count148
-\MPscratchDim=\dimen156
-\MPnumerator=\count149
-\makeMPintoPDFobject=\count150
+\MPscratchCnt=\count151
+\MPscratchDim=\dimen160
+\MPnumerator=\count152
+\makeMPintoPDFobject=\count153
 \everyMPtoPDFconversion=\toks35
 )
 Package caption Info: Begin \AtBeginDocument code.
@@ -648,23 +665,23 @@ Package caption Info: subfig package v1.3 is loaded.
 Package caption Info: hyperref package is loaded.
 Package caption Info: listings package is loaded.
 Package caption Info: End \AtBeginDocument code.
-\c@lstlisting=\count151
-\AtBeginShipoutBox=\box33
-Package hyperref Info: Link coloring ON on input line 302.
+\c@lstlisting=\count154
+\AtBeginShipoutBox=\box34
+Package hyperref Info: Link coloring ON on input line 345.
 ("D:\Program Files\CTEX\MiKTeX\tex\latex\hyperref\nameref.sty"
 Package: nameref 2010/04/30 v2.40 Cross-referencing by name of section
 ("D:\Program Files\CTEX\MiKTeX\tex\generic\oberdiek\gettitlestring.sty"
 Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 )
-\c@section@level=\count152
+\c@section@level=\count155
 )
-LaTeX Info: Redefining \ref on input line 302.
-LaTeX Info: Redefining \pageref on input line 302.
-LaTeX Info: Redefining \nameref on input line 302.
+LaTeX Info: Redefining \ref on input line 345.
+LaTeX Info: Redefining \pageref on input line 345.
+LaTeX Info: Redefining \nameref on input line 345.
 (D:\googledrive\a1\bookdown-plus-textbook\bookdown-plus.out) (D:\googledrive\a1
 \bookdown-plus-textbook\bookdown-plus.out)
-\@outlinefile=\write3
-LaTeX Info: Redefining \microtypecontext on input line 302.
+\@outlinefile=\write4
+LaTeX Info: Redefining \microtypecontext on input line 345.
 Package microtype Info: Generating PDF output.
 Package microtype Info: Character protrusion enabled (level 2).
 Package microtype Info: Using default protrusion set `alltext'.
@@ -674,18 +691,18 @@ Package microtype Info: No adjustment of interword spacing.
 Package microtype Info: No adjustment of character kerning.
 ("D:\Program Files\CTEX\MiKTeX\tex\latex\microtype\mt-ppl.cfg"
 File: mt-ppl.cfg 2005/11/16 v1.6 microtype config. file: Palatino (RS)
-) ABD: EveryShipout initializing macros <images/bookdownplus-logo.pdf, id=135, 
+) ABD: EveryShipout initializing macros <images/bookdownplus-logo.pdf, id=146, 
 199.22429pt x 99.7326pt>
 File: images/bookdownplus-logo.pdf Graphic file (type pdf)
 <use images/bookdownplus-logo.pdf>
-Package pdftex.def Info: images/bookdownplus-logo.pdf used on input line 345.
+Package pdftex.def Info: images/bookdownplus-logo.pdf used on input line 388.
 (pdftex.def)             Requested size: 170.71652pt x 85.46246pt.
-LaTeX Font Info:    Try loading font information for T1+fvm on input line 360.
+LaTeX Font Info:    Try loading font information for T1+fvm on input line 403.
 ("D:\Program Files\CTEX\MiKTeX\tex\latex\bera\t1fvm.fd"
 File: t1fvm.fd 2004/09/07 scalable font definitions for T1/fvm.
 )
 LaTeX Font Info:    Font shape `T1/fvm/m/n' will be
-(Font)              scaled to size 7.65005pt on input line 360.
+(Font)              scaled to size 7.65005pt on input line 403.
 [1
 
 
@@ -695,52 +712,52 @@ LaTeX Font Info:    Font shape `T1/fvm/m/n' will be
 
 
 ]
-Package tocbasic Info: character protrusion at toc deactivated on input line 38
-9.
+Package tocbasic Info: character protrusion at toc deactivated on input line 43
+2.
 (D:\googledrive\a1\bookdown-plus-textbook\bookdown-plus.toc
 Package microtype Info: Character `029' is missing
 (microtype)             in font `T1/pplj/m/sc/10.95'.
 (microtype)             Ignoring protrusion settings for this character.
-LaTeX Font Info:    Try loading font information for U+zeur on input line 13.
+LaTeX Font Info:    Try loading font information for U+zeur on input line 14.
 ("D:\Program Files\CTEX\MiKTeX\tex\latex\eulervm\uzeur.fd"
 File: uzeur.fd 2005/01/11 v4.0 (WaS)
 ) ("D:\Program Files\CTEX\MiKTeX\tex\latex\microtype\mt-eur.cfg"
 File: mt-eur.cfg 2006/07/31 v1.1 microtype config. file: AMS Euler Roman (RS)
 )
-LaTeX Font Info:    Try loading font information for U+zeus on input line 13.
+LaTeX Font Info:    Try loading font information for U+zeus on input line 14.
 ("D:\Program Files\CTEX\MiKTeX\tex\latex\eulervm\uzeus.fd"
 File: uzeus.fd 2005/01/11 v4.0 (WaS)
 ) ("D:\Program Files\CTEX\MiKTeX\tex\latex\microtype\mt-eus.cfg"
 File: mt-eus.cfg 2006/07/28 v1.2 microtype config. file: AMS Euler Script (RS)
 )
-LaTeX Font Info:    Try loading font information for U+zeuex on input line 13.
+LaTeX Font Info:    Try loading font information for U+zeuex on input line 14.
 ("D:\Program Files\CTEX\MiKTeX\tex\latex\eulervm\uzeuex.fd"
 File: uzeuex.fd 2005/01/11 v4.0 (WaS)
 )
-LaTeX Font Info:    Try loading font information for OT1+zplm on input line 13.
+LaTeX Font Info:    Try loading font information for OT1+zplm on input line 14.
 
 ("D:\Program Files\CTEX\MiKTeX\tex\latex\psnfss\ot1zplm.fd"
 File: ot1zplm.fd 2002/09/08 Fontinst v1.914 font definitions for OT1/zplm.
 ))
-\tf@toc=\write4
+\tf@toc=\write5
 [3]
-Package tocbasic Info: character protrusion at lof deactivated on input line 40
-9.
+Package tocbasic Info: character protrusion at lof deactivated on input line 45
+2.
 (D:\googledrive\a1\bookdown-plus-textbook\bookdown-plus.lof)
-\tf@lof=\write5
+\tf@lof=\write6
 [4
 
 ]
-Package tocbasic Info: character protrusion at lot deactivated on input line 42
-2.
+Package tocbasic Info: character protrusion at lot deactivated on input line 46
+5.
 (D:\googledrive\a1\bookdown-plus-textbook\bookdown-plus.lot)
-\tf@lot=\write6
+\tf@lot=\write7
 [5] (D:\googledrive\a1\bookdown-plus-textbook\bookdown-plus.lol)
-\tf@lol=\write7
+\tf@lol=\write8
 [6]
 LaTeX Font Info:    Font shape `T1/pplj/bx/n' in size <10.95> not available
-(Font)              Font shape `T1/pplj/b/n' tried instead on input line 452.
-LaTeX Font Info:    Try loading font information for T1+cmss on input line 452.
+(Font)              Font shape `T1/pplj/b/n' tried instead on input line 495.
+LaTeX Font Info:    Try loading font information for T1+cmss on input line 495.
 
 ("D:\Program Files\CTEX\MiKTeX\tex\latex\base\t1cmss.fd"
 File: t1cmss.fd 1999/05/25 v2.5h Standard LaTeX font definitions
@@ -765,26 +782,26 @@ Class scrreprt Warning: \float@addtolists detected!
 (scrreprt)              `scrreprt' soon .
 
 LaTeX Font Info:    Font shape `T1/fvm/m/n' will be
-(Font)              scaled to size 9.30756pt on input line 480.
+(Font)              scaled to size 9.30756pt on input line 523.
 LaTeX Font Info:    Font shape `T1/pplj/bx/it' in size <10.95> not available
-(Font)              Font shape `T1/pplj/b/it' tried instead on input line 483.
+(Font)              Font shape `T1/pplj/b/it' tried instead on input line 526.
 LaTeX Font Info:    Font shape `T1/pplj/m/sl' in size <10.95> not available
-(Font)              Font shape `T1/pplj/m/it' tried instead on input line 490.
+(Font)              Font shape `T1/pplj/m/it' tried instead on input line 533.
 LaTeX Font Info:    Font shape `T1/pplj/m/sl' in size <9> not available
-(Font)              Font shape `T1/pplj/m/it' tried instead on input line 490.
+(Font)              Font shape `T1/pplj/m/it' tried instead on input line 533.
 
-Overfull \hbox (7.56294pt too wide) in paragraph at lines 492--494
+Overfull \hbox (7.56294pt too wide) in paragraph at lines 535--537
 []\T1/pplj/m/n/10.95 This book which you are read-ing was ex-actly pro-duced by
  \T1/fvm/m/n/10.95 bookdown+\T1/pplj/m/n/10.95 . 
  []
 
-LaTeX Font Info:    Try loading font information for OMS+pplj on input line 510
+LaTeX Font Info:    Try loading font information for OMS+pplj on input line 553
 .
-LaTeX Font Info:    No file OMSpplj.fd. on input line 510.
+LaTeX Font Info:    No file OMSpplj.fd. on input line 553.
 
 LaTeX Font Warning: Font shape `OMS/pplj/m/n' undefined
 (Font)              using `OMS/cmsy/m/n' instead
-(Font)              for symbol `textbullet' on input line 510.
+(Font)              for symbol `textbullet' on input line 553.
 
 [5
 
@@ -792,7 +809,7 @@ LaTeX Font Warning: Font shape `OMS/pplj/m/n' undefined
 ] [6]
 Chapter 2.
 
-Overfull \hbox (4.06396pt too wide) in paragraph at lines 549--554
+Overfull \hbox (4.06396pt too wide) in paragraph at lines 592--597
 \T1/pplj/m/n/10.95 and other soft-ware and pack-ages (i.e. \T1/fvm/m/n/10.95 Pa
 ndoc\T1/pplj/m/n/10.95 , L[]T[]X, \T1/fvm/m/n/10.95 rmarkdown\T1/pplj/m/n/10.95
  , \T1/fvm/m/n/10.95 rticle\T1/pplj/m/n/10.95 ,
@@ -806,7 +823,35 @@ ndoc\T1/pplj/m/n/10.95 , L[]T[]X, \T1/fvm/m/n/10.95 rmarkdown\T1/pplj/m/n/10.95
 
 ]
 Chapter 3.
-[9] [10
+LaTeX Font Info:    Font shape `T1/fvm/bx/n' in size <10.95> not available
+(Font)              Font shape `T1/fvm/b/n' tried instead on input line 635.
+LaTeX Font Info:    Font shape `T1/fvm/b/n' will be
+(Font)              scaled to size 9.30756pt on input line 635.
+
+<bookdown-plus_files/figure-latex/unnamed-chunk-1-1.pdf, id=358, 469.755pt x 32
+5.215pt>
+File: bookdown-plus_files/figure-latex/unnamed-chunk-1-1.pdf Graphic file (type
+ pdf)
+<use bookdown-plus_files/figure-latex/unnamed-chunk-1-1.pdf>
+Package pdftex.def Info: bookdown-plus_files/figure-latex/unnamed-chunk-1-1.pdf
+ used on input line 639.
+(pdftex.def)             Requested size: 201.60205pt x 139.57175pt.
+LaTeX Font Info:    Font shape `T1/fvm/m/it' in size <10.95> not available
+(Font)              Font shape `T1/fvm/m/sl' tried instead on input line 643.
+LaTeX Font Info:    Font shape `T1/fvm/m/sl' will be
+(Font)              scaled to size 9.30756pt on input line 643.
+
+<bookdown-plus_files/figure-latex/unnamed-chunk-1-2.pdf, id=359, 469.755pt x 32
+5.215pt>
+File: bookdown-plus_files/figure-latex/unnamed-chunk-1-2.pdf Graphic file (type
+ pdf)
+<use bookdown-plus_files/figure-latex/unnamed-chunk-1-2.pdf>
+Package pdftex.def Info: bookdown-plus_files/figure-latex/unnamed-chunk-1-2.pdf
+ used on input line 652.
+(pdftex.def)             Requested size: 201.60205pt x 139.57175pt.
+[9 <D:/googledrive/a1/bookdown-plus-textbook/bookdown-plus_files/figure-latex/u
+nnamed-chunk-1-1.pdf> <D:/googledrive/a1/bookdown-plus-textbook/bookdown-plus_f
+iles/figure-latex/unnamed-chunk-1-2.pdf>] [10
 
 
 ]
@@ -819,181 +864,262 @@ Chapter 5.
 [13] [14
 
 
-] [15] [16]
+]
 Chapter 6.
-<images/bookdown+journal.png, id=366, 597.6729pt x 845.19765pt>
-File: images/bookdown+journal.png Graphic file (type png)
-<use images/bookdown+journal.png>
-Package pdftex.def Info: images/bookdown+journal.png used on input line 598.
-(pdftex.def)             Requested size: 268.80103pt x 380.12907pt.
-[17
+[15] [16
 
 
-] [18 <D:/googledrive/a1/bookdown-plus-textbook/images/bookdown+journal.png>]
+] [17] [18]
 Chapter 7.
+<images/journal_cropped.pdf, id=413, 487.04962pt x 749.59044pt>
+File: images/journal_cropped.pdf Graphic file (type pdf)
+<use images/journal_cropped.pdf>
+Package pdftex.def Info: images/journal_cropped.pdf used on input line 667.
+(pdftex.def)             Requested size: 268.80103pt x 413.70573pt.
 [19
 
 
-] [20
-
-
-]
+] [20 <D:/googledrive/a1/bookdown-plus-textbook/images/journal_cropped.pdf>]
 Chapter 8.
-<images/bookdown+guitar.png, id=384, 597.6729pt x 845.19765pt>
-File: images/bookdown+guitar.png Graphic file (type png)
-<use images/bookdown+guitar.png>
-Package pdftex.def Info: images/bookdown+guitar.png used on input line 611.
-(pdftex.def)             Requested size: 268.80103pt x 380.12907pt.
-[21] [22 <D:/googledrive/a1/bookdown-plus-textbook/images/bookdown+guitar.png (
-PNG copy)>] [23
+<images/poem_cropped.pdf, id=449, 216.81pt x 369.66104pt>
+File: images/poem_cropped.pdf Graphic file (type pdf)
+<use images/poem_cropped.pdf>
+Package pdftex.def Info: images/poem_cropped.pdf used on input line 678.
+(pdftex.def)             Requested size: 268.80103pt x 458.36368pt.
+[21
 
 
-] [24]
+] [22 <D:/googledrive/a1/bookdown-plus-textbook/images/poem_cropped.pdf>]
 Chapter 9.
-<images/bookdown+mail.png, id=402, 614.65636pt x 795.33134pt>
-File: images/bookdown+mail.png Graphic file (type png)
-<use images/bookdown+mail.png>
-Package pdftex.def Info: images/bookdown+mail.png used on input line 624.
-(pdftex.def)             Requested size: 268.80103pt x 347.8231pt.
-[25
+<images/guitar_cropped.pdf, id=470, 432.81702pt x 614.94746pt>
+File: images/guitar_cropped.pdf Graphic file (type pdf)
+<use images/guitar_cropped.pdf>
+Package pdftex.def Info: images/guitar_cropped.pdf used on input line 689.
+(pdftex.def)             Requested size: 268.80103pt x 381.91093pt.
+[23
 
 
-] [26 <D:/googledrive/a1/bookdown-plus-textbook/images/bookdown+mail.png>]
+] [24 <D:/googledrive/a1/bookdown-plus-textbook/images/guitar_cropped.pdf>] [25
+
+
+] [26]
 Chapter 10.
 
-Overfull \hbox (0.84937pt too wide) in paragraph at lines 631--631
+Overfull \hbox (0.84937pt too wide) in paragraph at lines 698--698
 []\chapterNumber 10 
  []
 
-<images/bookdown+calendar.png, id=411, 845.19765pt x 597.6729pt>
-File: images/bookdown+calendar.png Graphic file (type png)
-<use images/bookdown+calendar.png>
-Package pdftex.def Info: images/bookdown+calendar.png used on input line 635.
-(pdftex.def)             Requested size: 268.80103pt x 190.07365pt.
+<images/mail_cropped.pdf, id=529, 498.86375pt x 615.29875pt>
+File: images/mail_cropped.pdf Graphic file (type pdf)
+<use images/mail_cropped.pdf>
+Package pdftex.def Info: images/mail_cropped.pdf used on input line 702.
+(pdftex.def)             Requested size: 268.80103pt x 331.54283pt.
 [27
 
 
-] [28 <D:/googledrive/a1/bookdown-plus-textbook/images/bookdown+calendar.png (P
-NG copy)>] [29
-
-
-] [30]
+] [28 <D:/googledrive/a1/bookdown-plus-textbook/images/mail_cropped.pdf>]
 Chapter 11.
 
-Overfull \hbox (0.84937pt too wide) in paragraph at lines 644--644
+Overfull \hbox (0.84937pt too wide) in paragraph at lines 709--709
 []\chapterNumber 11 
  []
 
-<images/bookdown+article.png, id=430, 597.6729pt x 788.4657pt>
-File: images/bookdown+article.png Graphic file (type png)
-<use images/bookdown+article.png>
-Package pdftex.def Info: images/bookdown+article.png used on input line 650.
-(pdftex.def)             Requested size: 268.80103pt x 354.61378pt.
-[31
+<images/calendar.pdf, id=563, 845.0471pt x 597.51233pt>
+File: images/calendar.pdf Graphic file (type pdf)
+<use images/calendar.pdf>
+Package pdftex.def Info: images/calendar.pdf used on input line 713.
+(pdftex.def)             Requested size: 268.80103pt x 190.05907pt.
+[29
 
 
-] [32 <D:/googledrive/a1/bookdown-plus-textbook/images/bookdown+article.png>]
+] [30 <D:/googledrive/a1/bookdown-plus-textbook/images/calendar.pdf>] [31
+
+
+] [32]
 Chapter 12.
 
-Overfull \hbox (0.84937pt too wide) in paragraph at lines 657--657
+Overfull \hbox (0.84937pt too wide) in paragraph at lines 722--722
 []\chapterNumber 12 
  []
 
+<images/article_cropped.pdf, id=604, 517.17213pt x 697.77687pt>
+File: images/article_cropped.pdf Graphic file (type pdf)
+<use images/article_cropped.pdf>
+Package pdftex.def Info: images/article_cropped.pdf used on input line 728.
+(pdftex.def)             Requested size: 268.80103pt x 362.6757pt.
 [33
 
 
-] [34
-
-
-]
+] [34 <D:/googledrive/a1/bookdown-plus-textbook/images/article_cropped.pdf>]
 Chapter 13.
 
-Overfull \hbox (0.84937pt too wide) in paragraph at lines 659--659
+Overfull \hbox (0.84937pt too wide) in paragraph at lines 735--735
 []\chapterNumber 13 
  []
 
-[35] [36
+<images/thesis-ubt_cropped.pdf, id=635, 440.84702pt x 581.79356pt>
+File: images/thesis-ubt_cropped.pdf Graphic file (type pdf)
+<use images/thesis-ubt_cropped.pdf>
+Package pdftex.def Info: images/thesis-ubt_cropped.pdf used on input line 739.
+(pdftex.def)             Requested size: 268.80103pt x 354.74265pt.
+[35
 
 
-]
+] [36 <D:/googledrive/a1/bookdown-plus-textbook/images/thesis-ubt_cropped.pdf>]
 Chapter 14.
 
-Overfull \hbox (0.84937pt too wide) in paragraph at lines 661--661
+Overfull \hbox (0.84937pt too wide) in paragraph at lines 746--746
 []\chapterNumber 14 
  []
 
-<images/bookdown+chem.png, id=456, 500.8311pt x 711.49815pt>
-File: images/bookdown+chem.png Graphic file (type png)
-<use images/bookdown+chem.png>
-Package pdftex.def Info: images/bookdown+chem.png used on input line 665.
-(pdftex.def)             Requested size: 268.80103pt x 381.87997pt.
-[37] [38 <D:/googledrive/a1/bookdown-plus-textbook/images/bookdown+chem.png (PN
-G copy)>]
+<images/poster-eco.jpg, id=682, 401.5pt x 490.83376pt>
+File: images/poster-eco.jpg Graphic file (type jpg)
+<use images/poster-eco.jpg>
+Package pdftex.def Info: images/poster-eco.jpg used on input line 750.
+(pdftex.def)             Requested size: 268.80103pt x 328.63222pt.
+<images/poster-ocean.jpg, id=683, 401.5pt x 490.83376pt>
+File: images/poster-ocean.jpg Graphic file (type jpg)
+<use images/poster-ocean.jpg>
+Package pdftex.def Info: images/poster-ocean.jpg used on input line 759.
+(pdftex.def)             Requested size: 268.80103pt x 328.63222pt.
+<images/poster-rose.jpg, id=684, 401.5pt x 490.83376pt>
+File: images/poster-rose.jpg Graphic file (type jpg)
+<use images/poster-rose.jpg>
+Package pdftex.def Info: images/poster-rose.jpg used on input line 768.
+(pdftex.def)             Requested size: 268.80103pt x 328.63222pt.
+[37
+
+
+] [38 <D:/googledrive/a1/bookdown-plus-textbook/images/poster-eco.jpg>] [39 <D:
+/googledrive/a1/bookdown-plus-textbook/images/poster-ocean.jpg>] [40 <D:/google
+drive/a1/bookdown-plus-textbook/images/poster-rose.jpg>]
 Chapter 15.
 
-Overfull \hbox (0.84937pt too wide) in paragraph at lines 672--672
+Overfull \hbox (0.84937pt too wide) in paragraph at lines 775--775
 []\chapterNumber 15 
  []
 
-<images/bookdown+articlezh.png, id=465, 597.6729pt x 845.19765pt>
-File: images/bookdown+articlezh.png Graphic file (type png)
-<use images/bookdown+articlezh.png>
-Package pdftex.def Info: images/bookdown+articlezh.png used on input line 676.
-(pdftex.def)             Requested size: 268.80103pt x 380.12907pt.
-<images/bookdown+articlezh2.png, id=466, 597.6729pt x 845.19765pt>
-File: images/bookdown+articlezh2.png Graphic file (type png)
-<use images/bookdown+articlezh2.png>
-Package pdftex.def Info: images/bookdown+articlezh2.png used on input line 685.
-
-(pdftex.def)             Requested size: 268.80103pt x 380.12907pt.
-[39
+<images/chemistry_cropped.pdf, id=701, 368.03497pt x 346.62497pt>
+File: images/chemistry_cropped.pdf Graphic file (type pdf)
+<use images/chemistry_cropped.pdf>
+Package pdftex.def Info: images/chemistry_cropped.pdf used on input line 779.
+(pdftex.def)             Requested size: 268.80103pt x 253.16106pt.
+[41
 
 
-] [40 <D:/googledrive/a1/bookdown-plus-textbook/images/bookdown+articlezh.png (
-PNG copy)>] [41 <D:/googledrive/a1/bookdown-plus-textbook/images/bookdown+artic
-lezh2.png>] [42
+] [42 <D:/googledrive/a1/bookdown-plus-textbook/images/chemistry_cropped.pdf>] 
+[43
+
+
+] [44]
+Chapter 16.
+
+Overfull \hbox (0.84937pt too wide) in paragraph at lines 788--788
+[]\chapterNumber 16 
+ []
+
+<images/article-zh_cropped.pdf, id=791, 429.80576pt x 685.29022pt>
+File: images/article-zh_cropped.pdf Graphic file (type pdf)
+<use images/article-zh_cropped.pdf>
+Package pdftex.def Info: images/article-zh_cropped.pdf used on input line 792.
+(pdftex.def)             Requested size: 268.80103pt x 428.59811pt.
+<images/thesis-zju_cropped.pdf, id=792, 469.97583pt x 707.3928pt>
+File: images/thesis-zju_cropped.pdf Graphic file (type pdf)
+<use images/thesis-zju_cropped.pdf>
+Package pdftex.def Info: images/thesis-zju_cropped.pdf used on input line 801.
+(pdftex.def)             Requested size: 268.80103pt x 404.58891pt.
+[45
+
+
+] [46 <D:/googledrive/a1/bookdown-plus-textbook/images/article-zh_cropped.pdf>]
+[47 <D:/googledrive/a1/bookdown-plus-textbook/images/thesis-zju_cropped.pdf>] [
+48
+
+
+]
+Chapter 17.
+
+Overfull \hbox (0.84937pt too wide) in paragraph at lines 808--808
+[]\chapterNumber 17 
+ []
+
+[49] [50
 
 
 ]
 Appendix A.
-[43] [44
+[51] [52
 
 
 ]
 Appendix B.
-(D:\googledrive\a1\bookdown-plus-textbook\bookdown-plus.bbl [45] [46
+(D:\googledrive\a1\bookdown-plus-textbook\bookdown-plus.bbl [53] [54
 
 
-]) [47]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 716.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 716.
+]) [55]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 834.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 834.
 (D:\googledrive\a1\bookdown-plus-textbook\bookdown-plus.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 716.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 716.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 834.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 834.
 Package rerunfilecheck Info: File `bookdown-plus.out' has not changed.
-(rerunfilecheck)             Checksum: A48D5849E87554B275908FE01DB48503;1785.
+(rerunfilecheck)             Checksum: 263949EA2A02E8C93DE14B0BC508FA96;1924.
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 14775 strings out of 494045
- 225768 string characters out of 3148017
- 485881 words of memory out of 3000000
- 17589 multiletter control sequences out of 15000+200000
- 118079 words of font info for 150 fonts, out of 3000000 for 9000
+ 15307 strings out of 494045
+ 234474 string characters out of 3148017
+ 494295 words of memory out of 3000000
+ 18084 multiletter control sequences out of 15000+200000
+ 119354 words of font info for 154 fonts, out of 3000000 for 9000
  715 hyphenation exceptions out of 8191
  43i,13n,67p,496b,473s stack positions out of 5000i,500n,10000p,200000b,50000s
 {D:/Program Files/CTEX/MiKTeX/fonts/enc/dvips/fontname/8r.enc}<D:/Program Fil
-es/CTEX/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><D:/Program Files/CTEX
-/MiKTeX/fonts/type1/public/amsfonts/euler/eurb10.pfb><D:/Program Files/CTEX/MiK
-TeX/fonts/type1/public/fpl/fplrc8a.pfb><D:/Program Files/CTEX/MiKTeX/fonts/type
-1/bera/fvmr8a.pfb><D:/Program Files/CTEX/MiKTeX/fonts/type1/urw/palatino/uplbi8
-a.pfb><D:/Program Files/CTEX/MiKTeX/fonts/type1/urw/palatino/uplr8a.pfb><D:/Pro
-gram Files/CTEX/MiKTeX/fonts/type1/urw/palatino/uplri8a.pfb>
-Output written on bookdown-plus.pdf (55 pages, 593904 bytes).
+es/CTEX/MiKTeX/fonts/type1/public/calligra-type1/callig15.pfb><D:/Program Files
+/CTEX/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx7.pfb><D:/Program Files/CTEX/Mi
+KTeX/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><D:/Program Files/CTEX/MiKTeX/f
+onts/type1/public/amsfonts/cm/cmr10.pfb><D:/Program Files/CTEX/MiKTeX/fonts/typ
+e1/public/amsfonts/cm/cmr5.pfb><D:/Program Files/CTEX/MiKTeX/fonts/type1/public
+/amsfonts/cm/cmr7.pfb><D:/Program Files/CTEX/MiKTeX/fonts/type1/public/amsfonts
+/cm/cmsy10.pfb><D:/Program Files/CTEX/MiKTeX/fonts/type1/public/amsfonts/cm/cmt
+i10.pfb><D:/Program Files/CTEX/MiKTeX/fonts/type1/public/amsfonts/euler/eurb10.
+pfb><D:/Program Files/CTEX/MiKTeX/fonts/type1/public/fpl/fplrc8a.pfb><D:/Progra
+m Files/CTEX/MiKTeX/fonts/type1/bera/fvmb8a.pfb><D:/Program Files/CTEX/MiKTeX/f
+onts/type1/bera/fvmr8a.pfb><D:/Program Files/CTEX/MiKTeX/fonts/type1/bera/fvmro
+8a.pfb><D:/Program Files/CTEX/MiKTeX/fonts/type1/bera/fvsb8a.pfb><D:/Program Fi
+les/CTEX/MiKTeX/fonts/type1/bera/fvsr8a.pfb><D:/Program Files/CTEX/MiKTeX/fonts
+/type1/public/amsfonts/latxfont/lcircle1.pfb><D:/Program Files/CTEX/MiKTeX/font
+s/type1/public/amsfonts/latxfont/line10.pfb><D:/Program Files/CTEX/MiKTeX/fonts
+/type1/public/lm/lmbx12.pfb><D:/Program Files/CTEX/MiKTeX/fonts/type1/public/lm
+/lmex10.pfb><D:/Program Files/CTEX/MiKTeX/fonts/type1/public/lm/lmmi10.pfb><D:/
+Program Files/CTEX/MiKTeX/fonts/type1/public/lm/lmmi5.pfb><D:/Program Files/CTE
+X/MiKTeX/fonts/type1/public/lm/lmmi7.pfb><D:/Program Files/CTEX/MiKTeX/fonts/ty
+pe1/public/lm/lmr10.pfb><D:/Program Files/CTEX/MiKTeX/fonts/type1/public/lm/lmr
+5.pfb><D:/Program Files/CTEX/MiKTeX/fonts/type1/public/lm/lmr7.pfb><D:/Program 
+Files/CTEX/MiKTeX/fonts/type1/public/lm/lmro10.pfb><D:/Program Files/CTEX/MiKTe
+X/fonts/type1/public/lm/lmss10.pfb><D:/Program Files/CTEX/MiKTeX/fonts/type1/pu
+blic/lm/lmssbx10.pfb><D:/Program Files/CTEX/MiKTeX/fonts/type1/public/lm/lmsso1
+0.pfb><D:/Program Files/CTEX/MiKTeX/fonts/type1/public/lm/lmsy10.pfb><D:/Progra
+m Files/CTEX/MiKTeX/fonts/type1/public/lm/lmsy7.pfb><D:/Program Files/CTEX/MiKT
+eX/fonts/type1/public/marvosym/marvosym.pfb><D:/Program Files/CTEX/MiKTeX/fonts
+/type1/public/tex-gyre/qzcmi.pfb><D:/Program Files/CTEX/MiKTeX/fonts/type1/publ
+ic/cm-super/sfrm0600.pfb><D:/Program Files/CTEX/MiKTeX/fonts/type1/public/cm-su
+per/sfrm0800.pfb><D:/Program Files/CTEX/MiKTeX/fonts/type1/public/cm-super/sfrm
+1095.pfb><D:/Program Files/CTEX/MiKTeX/fonts/type1/public/cm-super/sfsx1440.pfb
+><D:/Program Files/CTEX/MiKTeX/fonts/type1/public/cm-super/sfsx2074.pfb><D:/Pro
+gram Files/CTEX/MiKTeX/fonts/type1/public/cm-super/sftt0900.pfb><D:/Program Fil
+es/CTEX/MiKTeX/fonts/type1/public/cm-super/sftt1095.pfb><D:/Program Files/CTEX/
+MiKTeX/fonts/type1/urw/courier/ucrr8a.pfb><D:/Program Files/CTEX/MiKTeX/fonts/t
+ype1/urw/palatino/uplbi8a.pfb><D:/Program Files/CTEX/MiKTeX/fonts/type1/urw/pal
+atino/uplr8a.pfb><D:/Program Files/CTEX/MiKTeX/fonts/type1/urw/palatino/uplri8a
+.pfb><D:/Program Files/CTEX/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><D:/Program
+ Files/CTEX/MiKTeX/fonts/type1/urw/times/utmbi8a.pfb><D:/Program Files/CTEX/MiK
+TeX/fonts/type1/urw/times/utmr8a.pfb>
+Output written on bookdown-plus.pdf (63 pages, 2321525 bytes).
 PDF statistics:
- 560 PDF objects out of 1000 (max. 8388607)
- 112 named destinations out of 1000 (max. 500000)
- 38198 words of extra memory for PDF output out of 42996 (max. 10000000)
+ 1085 PDF objects out of 1200 (max. 8388607)
+ 128 named destinations out of 1000 (max. 500000)
+ 39281 words of extra memory for PDF output out of 42996 (max. 10000000)
 

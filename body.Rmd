@@ -47,7 +47,7 @@ If I miss something that I should cite, please let me know.
 
 # Quick Start
 
-## Step 0. Preparation
+## Preparation
 
 Before starting, you have to install R, RStudio, bookdown package, and other software and packages (i.e. `Pandoc`, \LaTeX, `rmarkdown`, `rticle`, `knitr`, etc.) which bookdown depends on. See the official manual of bookdown ^[https://bookdown.org/yihui/bookdown/] for details.
 
@@ -74,71 +74,113 @@ Write your own text in `body.Rmd`, and build your own lovely book.
 
 Have fun!
 
+# Showcase 
+
+Hereby the key elements in a book are displayed so as to show the readers how your book produced by bookdown+ will look like.
+
+```{r, out.width='60%', fig.align='center'}
+ plot(co2)
+ z <- 2 * volcano        # Exaggerate the relief
+ x <- 10 * (1:nrow(z))   # 10 meter spacing (S to N)
+ y <- 10 * (1:ncol(z))   # 10 meter spacing (E to W)
+ par(mar = c(0,0,0,0))
+ persp(x, y, z, theta = 120, phi = 15, scale = FALSE, 
+       axes = FALSE)
+```
+
+
 # R, RStudio and bookdown
 # \(\LaTeX\) and Pandoc
 # Workflow
 # (PART) Lifestyle{-}
 # Journal
 
+
 ```{r imgjournal, fig.cap='Journal', out.width='80%', fig.align='center', echo=FALSE}
-knitr::include_graphics("images/bookdown+journal.png")
+knitr::include_graphics("images/journal_cropped.pdf")
 ```
-# Peom
+# Poem
+
+```{r, fig.cap='Poem book', out.width='80%', fig.align='center', echo=FALSE}
+knitr::include_graphics("images/poem_cropped.pdf")
+```
 
 # Music
 
-```{r imgguitar, fig.cap='Guitar', out.width='80%', fig.align='center', echo=FALSE}
-knitr::include_graphics("images/bookdown+guitar.png")
+
+```{r, fig.cap='Guitar chord book', out.width='80%', fig.align='center', echo=FALSE}
+knitr::include_graphics("images/guitar_cropped.pdf")
 ```
 
 
 # (PART) Office{-}
 # Letter
 
-```{r imgmail, fig.cap='Mail', out.width='80%', fig.align='center', echo=FALSE}
-knitr::include_graphics("images/bookdown+mail.png")
+```{r, fig.cap='Mail', out.width='80%', fig.align='center', echo=FALSE}
+knitr::include_graphics("images/mail_cropped.pdf")
 ```
 
 # Calendar
 
-```{r imgcalendar, fig.cap='Calendar', out.width='80%', fig.align='center', echo=FALSE}
-knitr::include_graphics("images/bookdown+calendar.png")
+
+```{r, fig.cap='Poem book', out.width='80%', fig.align='center', echo=FALSE}
+knitr::include_graphics("images/calendar.pdf")
 ```
 
 # (PART) Academic{-}
 # Academic articles
 
-text Fig. \@ref(fig:imgarticle).
+
+Fig. \@ref(fig:imgarticle).
 
 ```{r imgarticle, fig.cap='Article', out.width='80%', fig.align='center', echo=FALSE}
-knitr::include_graphics("images/bookdown+article.png")
+knitr::include_graphics("images/article_cropped.pdf")
 ```
 
 # Thesis
 
+
+```{r, fig.cap='Thesis', out.width='80%', fig.align='center', echo=FALSE}
+knitr::include_graphics("images/thesis-ubt_cropped.pdf")
+```
+
 # Poster
+
+
+```{r, fig.cap='Poster eco theme', out.width='80%', fig.align='center', echo=FALSE}
+knitr::include_graphics("images/poster-eco.jpg")
+```
+
+```{r, fig.cap='Poster ocean theme', out.width='80%', fig.align='center', echo=FALSE}
+knitr::include_graphics("images/poster-ocean.jpg")
+```
+
+```{r, fig.cap='Poster rose theme', out.width='80%', fig.align='center', echo=FALSE}
+knitr::include_graphics("images/poster-rose.jpg")
+```
 
 # Chemistry
 
-```{r imgchemistry, fig.cap='Chemistry', out.width='80%', fig.align='center', echo=FALSE}
-knitr::include_graphics("images/bookdown+chem.png")
+
+```{r, fig.cap='Chemistry', out.width='80%', fig.align='center', echo=FALSE}
+knitr::include_graphics("images/chemistry_cropped.pdf")
 ```
 
-
-
+# (PART) Advenced{-}
 # Chinese
 
-```{r imgchinese1, fig.cap='Chinese1', out.width='80%', fig.align='center', echo=FALSE}
-knitr::include_graphics("images/bookdown+articlezh.png")
+```{r, fig.cap='Article in Chinese', out.width='80%', fig.align='center', echo=FALSE}
+knitr::include_graphics("images/article-zh_cropped.pdf")
 ```
 
-```{r imgchinese2, fig.cap='Chinese2', out.width='80%', fig.align='center', echo=FALSE}
-knitr::include_graphics("images/bookdown+articlezh2.png")
+```{r, fig.cap='Thesis in Chinese', out.width='80%', fig.align='center', echo=FALSE}
+knitr::include_graphics("images/thesis-zju_cropped.pdf")
 ```
+
+# Create Your Templates
 
 # (APPENDIX) Appendix {-} 
 
-# Installation
 
 # Markdown Syntax Cheat Sheet
-
+# FAQ
