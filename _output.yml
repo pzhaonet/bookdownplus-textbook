@@ -4,11 +4,11 @@ bookdown::gitbook:
     toc:
       collapse: none
       before: |
-        <li><a href="http://pzhao.org">R bookdown-plus Textbook</a></li>
+        <li><a href="http://pzhao.org">R bookdownplus Textbook</a></li>
       after: |
         <li><a href="https://bookdown.org/yihui/bookdown/" target="blank">Supported by R bookdown</a></li>
     download: [pdf, epub]
-    edit: https://github.com/dapengde/bookdown-plus-textbook/edit/master/%s
+    edit: https://github.com/pzhaonet/bookdown-plus-textbook/edit/master/%s
     sharing:
       github: yes
       facebook: yes

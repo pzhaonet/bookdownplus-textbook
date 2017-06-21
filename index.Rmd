@@ -1,6 +1,6 @@
 --- 
-title: "R bookdown+ Textbook"
-subtitle: "Authoring Articles, Mails, Guitar books, Chemical Molecular Formulae and Equations with R bookdown"
+title: "R bookdownplus Textbook"
+subtitle: "Authoring Varied Types of Books and Documents with R bookdown"
 author: "Peng Zhao"
 date: "`r Sys.Date()`"
 output:
@@ -25,8 +25,8 @@ lot: yes
 lof: yes
 site: bookdown::bookdown_site
 # geometry: [b5paper, tmargin=2cm, bmargin=2cm, lmargin=1.5cm, rmargin=1.5cm]
-description: "A tutorial to `R bookdown+`, an extension of `R bookdown` package. This books shows helps you write academic journal articles, guitar books, chemical equations, mails, calendars, and diaries, on the basis of `R bookdown`."
-github-repo: "dapengde/bookdown-plus-textbook"
+description: "A tutorial to `R bookdownplus`, an extension of `R bookdown` package. This books shows helps you write academic journal articles, guitar books, chemical equations, mails, calendars, and diaries, on the basis of R `bookdown`."
+github-repo: "pzhaonet/bookdown-plus-textbook"
 url: 'https\://bookdown.org/baydap/bookdown-plus/'
 cover-image: "images/cover.jpg"
 ---
