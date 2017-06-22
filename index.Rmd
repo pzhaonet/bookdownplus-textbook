@@ -10,7 +10,7 @@ output:
     keep_tex: yes
     citation_package: natbib
 #    latex_engine: xelatex
-    toc_depth: 3
+    toc_depth: 2
     toc_unnumbered: yes
     toc_appendix: yes
     pandoc_args: --chapters
@@ -26,7 +26,7 @@ lof: yes
 site: bookdown::bookdown_site
 # geometry: [b5paper, tmargin=2cm, bmargin=2cm, lmargin=1.5cm, rmargin=1.5cm]
 description: "A tutorial to `R bookdownplus`, an extension of `R bookdown` package. This books shows helps you write academic journal articles, guitar books, chemical equations, mails, calendars, and diaries, on the basis of R `bookdown`."
-github-repo: "pzhaonet/bookdown-plus-textbook"
-url: 'https\://bookdown.org/baydap/bookdown-plus/'
+github-repo: "pzhaonet/bookdownplus-textbook"
+url: 'https\://bookdown.org/baydap/bookdownplus/'
 cover-image: "images/cover.jpg"
 ---

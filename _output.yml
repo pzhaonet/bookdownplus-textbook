@@ -8,7 +8,7 @@ bookdown::gitbook:
       after: |
         <li><a href="https://bookdown.org/yihui/bookdown/" target="blank">Supported by R bookdown</a></li>
     download: [pdf, epub]
-    edit: https://github.com/pzhaonet/bookdown-plus-textbook/edit/master/%s
+    edit: https://github.com/pzhaonet/bookdownplus-textbook/edit/master/%s
     sharing:
       github: yes
       facebook: yes
