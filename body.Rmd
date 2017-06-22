@@ -588,7 +588,7 @@ As you know the steps of creating a demo poster, now it is time to build your ow
 
 Have you noticed something? The hot key or button of building a 'bookdown' document has never been used for the 'poster' template! Indeed 'bookdownplus' poster template is nothing to do with 'bookdown'. It is a 'markdown' solution for posters extracted from kuleuven-templates ^[https://github.com/exporl/kuleuven-templates] with my additional contribution. I put it in the 'bookdownplus' package only because poster is a piece of the puzzle in academic productions, and I would like to build 'bookdownplus' as a complete academic tool.
 
-In the meanwhile a stand-alone version of the poster template is the 'postr' package available on GitHub^[https://github.com/pzhaonet/postr], developed by me and Yihui Xie, for non 'bookdown' users. This stand-alone version is more advanced and up-to-date with some more themes and features. For instance, it has a function for removing unnecessary files and folders bi-produced by the poster template. 
+In the meanwhile I am developing a stand-alone version of the poster template as the 'postr' package [@R-postr] for non 'bookdown' users. This stand-alone version is more advanced and up-to-date with some more themes and features. For instance, it has a function for removing unnecessary files and folders bi-produced by the poster template. 
 
 ## Chemistry
 
