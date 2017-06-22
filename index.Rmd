@@ -16,7 +16,7 @@ output:
     pandoc_args: --chapters
     quote_footer: ["\\begin{flushright}", "\\end{flushright}"]
 #    dev: "cairo_pdf"
-bibliography: [bib/bib.bib]
+bibliography: [bib/zhaor.bib]
 biblio-style: apalike
 link-citations: yes
 colorlinks: no  
