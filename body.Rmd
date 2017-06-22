@@ -1,6 +1,6 @@
-# Introduction
+# Introduction {#introduction}
 
-## What is 'bookdown'
+## What is 'bookdown' {#what_is__bookdown_}
 
 A book titled *R bookdownplus Textbook* is surely talking about 'bookdownplus' [@R-bookdownplus], but let's start with 'bookdown' [@R-bookdown].
 
@@ -16,7 +16,7 @@ A book titled *R bookdownplus Textbook* is surely talking about 'bookdownplus' [
 
 If my description is insufficient for you to know what is 'bookdown', you could have a brief look at the official website of 'bookdown'^[http://bookdown.org], where some of numerous books written with 'bookdown' are listed. Three of them on its home page are authored by me \m{21 June 2017}.
 
-## What is 'bookdownplus'
+## What is 'bookdownplus' {#what_is__bookdownplus_}
 
 Thus, 'bookdownplus' sounds like something related to 'bookdown' ? 
 
@@ -36,7 +36,7 @@ I believe some official 'bookdown' templates will be available in the near futur
 
 'bookdownplus' is a knife for cutting the 'bookdown' cake. Feel free to join me in sharpening it if you would like to.
 
-## Why 'bookdownplus'
+## Why 'bookdownplus' {#why__bookdownplus_}
 
 With 'bookdownplus' you can easily get into the wonderful world of 'bookdown'. You can
 
@@ -56,7 +56,7 @@ With 'bookdownplus' you can easily get into the wonderful world of 'bookdown'. Y
 
 - and more wonders will come soon.
 
-## Giants' Shoulders
+## Giants' Shoulders {#giants__shoulders}
 
 'bookdownplus' is developed on the basis of the following outstanding work:
 
@@ -80,9 +80,9 @@ With 'bookdownplus' you can easily get into the wonderful world of 'bookdown'. Y
 
 If I miss something that I should cite, please let me know.
 
-# Quick Start
+# Quick Start {#quick_start}
 
-## Preparation
+## Preparation {#preparation}
 
 Before starting, you have to install 'R', 'RStudio', 'bookdown' package, and
 other software and packages (i.e.'Pandoc', 'LaTeX', 'rmarkdown', 'rticle',
@@ -103,9 +103,9 @@ install.packages('bookdown')
 install.packages('servr')
 ```
 
-Additionally, if you want to produce a poster, phython must be installed before using, and the path of phython might have to be added to the environmental variables for Windows users. The usage of the poster template is described in a subsequent chapter.
+Additionally, if you want to produce a poster, phython must be installed before using, and the path of phython might have to be added to the environmental variables for Windows users. The usage of the poster template is described in Chapter \@ref(poster).
 
-## Installation of 'bookdownplus'
+## Installation of 'bookdownplus' {#installation_of__bookdownplus_}
 
 You can either install the stable version of 'bookdownplus' on CRAN:
 
@@ -119,7 +119,7 @@ or the development version on GitHub:
 devtools::install_github('pzhaonet/bookdownplus')
 ```
 
-## How to use
+## How to use {#how_to_use}
 
 Beginners can follow the three steps given below:
 
@@ -129,21 +129,21 @@ Beginners can follow the three steps given below:
 
 3. Write your own text in 'index.Rmd' and 'body.Rmd', and build your own lovely book.
 
-The detailed usage of each template is described in the subsequent chapters.
+The detailed usage of each template is described in Chapter \@ref(simple) to \@ref(advanced).
 
-# Basic
+# Basic {#basic}
 
-## Markdown Syntax
+## Markdown Syntax {#markdown_syntax}
 
 This chapter briefly introduces Markdown and its syntax in 'bookdown'. You can skip this chapter if you are already an R 'bookdown' user. The cheat sheet given here is a memo comprised of some simple notes without explanation.  You can check this chapter if you forget something when using 'bookdown'. The details and explanations of the syntax can be found in the bookdown manual ^[https://bookdown.org/yihui/bookdown/].
 
-### What is Markdown
+### What is Markdown {#what_is_markdown}
 
 'bookdownplus' is based of 'bookdown', which is based on 'markdown'. Markdown is a lightweight markup language with plain text formatting syntax ^[https://en.wikipedia.org/wiki/Markdown]. It means, for example, if you want to display italic texts in your document, you don't choose your texts and click an format button of 'italic' like what you do in Microsoft Word. Instead, you type `*my texts*` and the italic texts *my texts* will be displayed in your output documents. 
 
 One of the advantages of such a markup language is that the typing is fast. You don't have to move your fingers between your keyboard and your mouse. Another advantage is that it is easy to change the style or formats of your document. For example, you can replace all `CO2` with `CO~2~`, then the chemical formula of carbon dioxide will be displayed as CO~2~  .  
 
-### Basic syntax
+### Basic syntax {#basic_syntax}
 
 marks                              output
 ---------------------------------  -----
@@ -164,7 +164,7 @@ marks                              output
 `^[footnote]`                      footnote
 `<!-- hidden texts -->`            hidden texts
 
-### Chapters
+### Chapters {#chapters}
 
 ```
 # (PART) Part I {-} 
@@ -177,7 +177,7 @@ marks                              output
 
 `\@ref(ID)`
 
-### Figures and tables
+### Figures and tables {#figures_and_tables}
 
 A figure can be inserted with R plotting codes:
 
@@ -228,7 +228,7 @@ or with R codes:
 
 `\@ref(tab:tab1)`
 
-### Bibliography
+### References {#references}
 
 Bibliography entries must be saved in .bib.
 
@@ -242,7 +242,7 @@ Created a library of R packages for bibliography:
 knitr::write_bib(c("knitr", "stringr"), "", width = 60)
 ```
 
-### Theorems, lemma, definitions, etc.
+### Theorems, lemma, definitions, etc. {#theorems__lemma__definitions__etc_}
 
 Full name 	Abbreviations
 ---------- --------------  
@@ -260,7 +260,7 @@ example	    ex
 
 `\@ref(Abbreviation:label)`
 
-### Export Word document
+### Export Word document {#export_word_document}
 
 Insert the following line into _output.yml:
 
@@ -268,7 +268,7 @@ Insert the following line into _output.yml:
 bookdown::word_document2: default 
 ```
 
-### Equations numbering
+### Equations numbering {#equations_numbering}
 
 
 ```
@@ -287,11 +287,11 @@ E = mc^2
 I like Eq. \@ref(eq:mc2) so much that I am falling love with her.
 ```
 
-## R, RStudio and bookdown
-## LaTeX and Pandoc
-## Workflow
+## R, RStudio and bookdown {#r__rstudio_and_bookdown}
+## LaTeX and Pandoc {#latex_and_pandoc}
+## Workflow {#workflow}
 
-# Simple
+# Simple {#simple}
 
 There are three *simple* templates in 'bookdownplus': 'yihui_mini' ^[https://github.com/yihui/bookdown-minimal], 'yihui_demo' ^[https://github.com/rstudio/bookdown-demo], and 'yihui_zh' ^[https://github.com/yihui/bookdown-chinese]. They are not really simple. I call them *simple* only because I simply copied them from Yihui Xie's GitHub repos. My contribution is that I tailored them into 'bookdownplus' so that I don't have to download those repos every time when I start a new book.
 
@@ -327,9 +327,9 @@ In your working directory you could now open 'bookdownplus.Rproj' with RStudio. 
 
 Write your own text in 'index.Rmd' and 'body.Rmd', and build your own book. You could revise the title and author list in 'index.Rmd' as well.
 
-# Lifestyle
+# Lifestyle {#lifestyle}
 
-## Journal
+## Journal {#journal}
 
 
 ```{r imgjournal, fig.cap='A journal', out.width='90%', fig.align='center', echo=FALSE}
@@ -358,7 +358,7 @@ You might notice the wide margin of the pages. The margins are for your future u
 
 The 'journal' template is built on the basis of the LaTeX class 'labbook.cls' by Frank Küster. You could customize 'style/labbook.cls' if you are an expert on LaTeX.
 
-## Poem book
+## Poem book {#poem_book}
 
 A poem book produced with 'bookdownplus' looks like Fig. \@ref(fig:imgpoem). You can write such a book with the 'poem' template by simply running:
 
@@ -385,7 +385,7 @@ Write your own text in 'index.Rmd' and 'body.Rmd', and build your own poem book.
 
 In 'body.Rmd' you can use the mark `\bb{}` to enlarge the first letter of each paragraph of a poem. \m{Is it called 'paragraph' or somthing else? I am not sure.}
 
-## Music
+## Music {#music}
 
 Writing books including music pieces is difficult. Think about how to do it in Microsoft Word. Fortunately 'bookdown' works on the top of LaTeX, and there are LaTeX solutions for music books.
 
@@ -419,9 +419,9 @@ Writing a guitar chord book ^[https://bookdown.org/baydap/bdguitar/] is the uppe
 knitr::include_graphics("images/musixtex.png")
 ```
 
-# Office
+# Office {#office}
 
-## Mail
+## Mail {#mail}
 
 There are two types of mail templates available in 'bookdownplus 1.0.2': 'business' and 'personal', which uses printing font and handwriting font, respectively. Different from other templates, the 'mail' template needs the contacts of the sender and receiver. Thus, although you can create a mail template by simply running:
 
@@ -453,7 +453,7 @@ knitr::include_graphics("images/mail_cropped.png")
 Write your own text in 'body.Rmd', and build your own mail. 
 
 
-## Calendar
+## Calendar {#calendar}
 
 Creating a calendar with 'bookdown' is challenging, but possible, if only you accept LaTeX. More or less, the 'calendar' template may help us see how far we can go with 'bookdown'.
 
@@ -471,9 +471,9 @@ knitr::include_graphics("images/calendar.png")
 
 The content of the calendar can be revised in 'body.tex'. There are examples and fully explanations in it. I am not that interested in creating calendars, but I will be glad if you let me know how you like it.
 
-# Academic
+# Academic {#academic}
 
-## Articles
+## Articles {#articles}
 
 Writing academic articles with 'bookdown' was my original intention of developing 'bookdownplus'. This chapter comes so late because I don't want this book to scare those non-academic users. Actually, writing academic articles is the most beautiful essence of 'bookdown' from my point of view. Only in an academic article can users utilize the full support of superscripts, subscripts, footnotes, equations, tables, reproducible figures, citations, and cross-references.
 
@@ -503,7 +503,7 @@ Write your own text in 'index.Rmd' and 'body.Rmd', and build your own article. Y
 
 By default, the 'article' templates uses the two-columned LaTeX package by Copernicus Publications ^[http://publications.copernicus.org/for_authors/latex_instructions.html]. Copernicus Publications provide some other LaTeX template for one-columned article and discussion article. Furthermore, numerous academic journals provide their own LaTeX templates. Although I will add more article templates to 'bookdownplus' \m{quite dependent on my academic career} in the future, it would be appreciated if you join me and share your work.
 
-## Thesis
+## Thesis {#thesis}
 
 An academic thesis produced with 'bookdownplus' looks like Fig. \@ref(fig:imgthesisubt). Three templates for thesis are available in 'bookdownplus 1.0.2'. You can create such a thesis with the 'thesis_ubt' template by simply running:
 
@@ -534,11 +534,11 @@ Now it is done.
 
 The dissertation of UBT requires some chapters written in German, which you can see in 'tex/template_thesis_ubt.tex'. I leave them there for the convenience of those users studying in German speaking regions. If you don't need them, just simply remove them as you like.
 
-Besides 'thesis_ubt', the other two templates are 'thesis_classic' and 'thesis_zju'. The pdf version of this book you are reading now is created with 'thesis_classic' by Andre Miede ^[http://www.ctan.org/tex-archive/macros/latex/contrib/classicthesis/]. You can see how it works in the source code of this book ^[https://github.com/pzhaonet/bookdown-plus-textbook]. The 'thesis_zju' template is modified from the LaTeX template of thesis of Zhejiang Uni., which will be described in a subsequent chapter.
+Besides 'thesis_ubt', the other two templates are 'thesis_classic' and 'thesis_zju'. The pdf version of this book you are reading now is created with 'thesis_classic' by Andre Miede ^[http://www.ctan.org/tex-archive/macros/latex/contrib/classicthesis/]. You can see how it works in the source code of this book ^[https://github.com/pzhaonet/bookdown-plus-textbook]. The 'thesis_zju' template is modified from the LaTeX template of thesis of Zhejiang Uni., which will be described in Chapter \@ref(thesis).
 
 Numerous universities and institutes provide their own LaTeX templates for thesis. Although I will add more thesis templates to 'bookdownplus' in the future, it would be appreciated if you join me and share your work.
 
-## Poster
+## Poster {#poster}
 
 I did not expect to create academic posters with R 'bookdown' or 'markdown', because I think posters are not necessarily as structured as articles. Microsoft Powerpoint is still the easiest way to make a poster. A poster created in markdown syntax has its own advantages, though. It is reproducible, easy to maintain, easy to change the style, and has the common features of R markdown. You could see the posters generated by 'bookdownplus' in Fig. \@ref(fig:imgposter). Not bad, hmmm?
 
@@ -590,7 +590,7 @@ Have you noticed something? The hot key or button of building a 'bookdown' docum
 
 In the meanwhile I am developing a stand-alone version of the poster template as the 'postr' package [@R-postr] for non 'bookdown' users. This stand-alone version is more advanced and up-to-date with some more themes and features. For instance, it has a function for removing unnecessary files and folders bi-produced by the poster template. 
 
-## Chemistry
+## Chemistry {#chemistry}
 
 A chemistry article or book produced with 'bookdownplus' looks like Fig. \@ref(fig:imgchemistry). You can write such a book with the 'chemistry' template by simply running:
 
@@ -608,11 +608,11 @@ Write your own text in 'index.Rmd' and 'body.Rmd', and build your own poem book.
 
 In 'body.Rmd' you can see how to insert chemical formulae, chemical equations, and structural formulae. For more details, please see the 'mhchem' LaTeX package by Martin Hensel ^[https://www.ctan.org/pkg/mhchem].
 
-# Advanced
+# Advanced {#advanced}
 
-## Chinese
+## Chinese {#chinese}
 
-The support for Chinese typesetting with 'bookdown' is tricky. Briefly speaking, you need a LaTeX template which supports Chinese characters and styles. In a previous chapter the template 'yihui_zh' was introduced. It is a nice template for daily use. However, you might encounter some problems when producing html files from the chapter headers which contains Chinese characters, especially those mixes with Latin letters. See the discussion between me and Yihui ^[https://disqus.com/home/discussion/yihui/_yihui_xie_679/#comment-3175332429]. One solution is to add `{#identifier}` manually to those problematic headers. I tried this. It was boring because I finished a book first and added the #IDs later. Another solution is using the 'pinyin' package [@R-pinyin]. A function called `bookdown2py()` can convert the headers into pinyin (the official romanization system for Standard Chinese^[https://en.wikipedia.org/wiki/Pinyin]) and add the #IDs automatically:
+The support for Chinese typesetting with 'bookdown' is tricky. Briefly speaking, you need a LaTeX template which supports Chinese characters and styles. In Chapter \@ref(simple) the template 'yihui_zh' was introduced. It is a nice template for daily use. However, you might encounter some problems when producing html files from the chapter headers which contains Chinese characters, especially those mixes with Latin letters. See the discussion between me and Yihui ^[https://disqus.com/home/discussion/yihui/_yihui_xie_679/#comment-3175332429]. One solution is to add `{#identifier}` manually to those problematic headers. I tried this. It was boring because I finished a book first and added the #IDs later. Another solution is using the 'pinyin' package [@R-pinyin]. A function called `bookdown2py()` can convert the headers into pinyin (the official romanization system for Standard Chinese^[https://en.wikipedia.org/wiki/Pinyin]) and add the #IDs automatically:
 
 ```{r, eval=FALSE}
 install.packages('pinyin')
@@ -660,9 +660,9 @@ A combination of multiple templates could generate a new one, such as the 'chemi
 ```{r, eval=FALSE}
 bookdownplus::bookdownplus(template = 'chemistry_zh')
 ```
-Open 'bookdownplus.Rproj' and press 'ctrl+shift+b' to build it, and you will get a file named 'chemistry_zh.pdf' in '_book/' folder. Now you can write a chemistry book in Chinese. This template is the child parented by 'yihui_zh' and 'chemistry' templates. In this way you could customize your own template. A further description of creating your own templates is in the subsequent chapter.
+Open 'bookdownplus.Rproj' and press 'ctrl+shift+b' to build it, and you will get a file named 'chemistry_zh.pdf' in '_book/' folder. Now you can write a chemistry book in Chinese. This template is the child parented by 'yihui_zh' and 'chemistry' templates. In this way you could customize your own template. A further description of creating your own templates is in Chapter \@ref(customize).
 
-## Mind Map
+## Mind Map {#mind_map}
 
 Now you have your books or thesis done. It would be nice to show the outline of your book in a mind map. The mind map of this book is shown in Fig. \@ref(fig:imgmindmap).
 
@@ -680,6 +680,8 @@ library('mindr')
 
 With the 'mindr' package you can easily extract the outline from your 'bookdown' file. More details about the 'mindr' package can be found on my GitHub repo^[https://github.com/pzhaonet/mindr].
 
-## Customize Your Own Templates
+## Customize Your Own Templates {#customize}
 
-# FAQ
+# FAQ {#faq}
+
+# Bibliography {-}
