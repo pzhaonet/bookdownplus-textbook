@@ -27,6 +27,6 @@ site: bookdown::bookdown_site
 # geometry: [b5paper, tmargin=2cm, bmargin=2cm, lmargin=1.5cm, rmargin=1.5cm]
 description: "A tutorial to `R bookdownplus`, an extension of `R bookdown` package. This books shows helps you write academic journal articles, guitar books, chemical equations, mails, calendars, and diaries, on the basis of R `bookdown`."
 github-repo: "pzhaonet/bookdownplus-textbook"
-url: 'https\://bookdown.org/baydap/bookdownplus/'
+url: 'https\://bookdown.org/pzhao/bookdownplus/'
 cover-image: "images/cover.jpg"
 ---

@@ -9,3 +9,5 @@ help/
 _readme.*
 fun/extract.R
 rsconnect/
+rsconnect*/
+rsconnectbaydap/

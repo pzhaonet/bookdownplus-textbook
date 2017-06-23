@@ -129,7 +129,10 @@ Beginners can follow the three steps given below:
 
 3. Write your own text in 'index.Rmd' and 'body.Rmd', and build your own lovely book.
 
+If you run `bookdownplus()` again in the same working directory, new 'index.Rmd' and 'body.Rmd' will be created, and you may find the old 'index.Rmd' and 'body.Rmd' gone, which might contain your own texts in them. Don't panic. They have been moved to the '/backup' folder automatically with a timestamp added in the file names.
+
 The detailed usage of each template is described in Chapter \@ref(simple) to \@ref(advanced).
+
 
 # Basic {#basic}
 
@@ -534,7 +537,9 @@ Now it is done.
 
 The dissertation of UBT requires some chapters written in German, which you can see in 'tex/template_thesis_ubt.tex'. I leave them there for the convenience of those users studying in German speaking regions. If you don't need them, just simply remove them as you like.
 
-Besides 'thesis_ubt', the other two templates are 'thesis_classic' and 'thesis_zju'. The pdf version of this book you are reading now is created with 'thesis_classic' by Andre Miede ^[http://www.ctan.org/tex-archive/macros/latex/contrib/classicthesis/]. You can see how it works in the source code of this book ^[https://github.com/pzhaonet/bookdown-plus-textbook]. The 'thesis_zju' template is modified from the LaTeX template of thesis of Zhejiang Uni., which will be described in Chapter \@ref(thesis).
+Besides 'thesis_ubt', the other two templates are 'thesis_classic' and 'thesis_zju'. The pdf version of this book you are reading now is created with 'thesis_classic' by Andre Miede ^[http://www.ctan.org/tex-archive/macros/latex/contrib/classicthesis/]. You can see how it works in the source code of this book ^[https://github.com/pzhaonet/bookdown-plus-textbook]. For example, you could add a `subtitle` field in the YAML header of 'index.Rmd', then the subtitle apprears on the cover page of the book.
+
+The 'thesis_zju' template is modified from the LaTeX template of thesis of Zhejiang Uni., which will be described in Chapter \@ref(thesis).
 
 Numerous universities and institutes provide their own LaTeX templates for thesis. Although I will add more thesis templates to 'bookdownplus' in the future, it would be appreciated if you join me and share your work.
 
