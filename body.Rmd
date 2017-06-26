@@ -833,16 +833,27 @@ With the 'mindr' package you can easily extract the outline from your 'bookdown'
 
 ## Create Your Own Templates {#customize}
 
-`bookdownplus` provides you around 20 templates and more will be included in the future. If you study these avaible templates carefully and read Chapter 4 of the official manual of 'bookdown'^[https://bookdown.org/yihui/bookdown/], you will get the idea of how to create your own templates. 
+`bookdownplus` provides you around 20 templates (Version 1.2.0) and more will be included in the future. I am not an expert in LaTeX but I have successfully created the pdf templates described in this book. It means that creating a LaTeX template does not require much knowledge in LaTeX. If you know the general workflow of LaTeX, and study the 'bookdownplus' templates carefully, and read Chapter 4 of the official manual of 'bookdown'^[https://bookdown.org/yihui/bookdown/], you will get the idea of how to create your own templates. 
 
-Here is some hints from my experience:
+Here is some hints from my experience on creating a new template from am existing LaTeX template:
 
-- 
+- Find a nice LaTeX template. There are many websites that provide free LaTeX templates. You can download one you like most. Those with good documentations and comments are highly recommended.
 
--
+- Compile the LaTeX template file to make sure that it can work fine and produce the right pdf file. You could either use command lines or use some software like TexStudio to compile it. You could send to me this template with its full documentation and your pdf file, if you do not want to continue. I would try tailoring it into 'bookdownplus' but it is not guaranteed. It depends on my time and mood. Thus I recommend you to be brave and continue the next steps.  
 
-- 
+- Cut the template into 'template_yours.tex' and 'index.Rmd' in the following way:
 
+  - The main body of the LaTeX are the part between `\begin{document}` and `\end{document}`. Replace the main body with `$body$`, which will be filled with 'body.Rmd'. You can use any 'body*.Rmd' created by 'bookdownplus'.
+  
+  - Use any 'index.Rmd' created by 'bookdownplus' and modify the name of the LaTex template in 'index.Rmd'.
+  
+- If the LaTeX template is simple enough, now you may build this template book with 'bookdown'. 
+
+- Usually it won't work. A good-looking LaTeX template is mostly complicated, especially those in Chinese. Probably you have to modify the preamble, pick out some parts and save them and specify them in 'index.Rmd'. See the official manual of 'bookdown'^[https://bookdown.org/yihui/bookdown/yaml-options.html].
+
+- If you can successfully build your book with your new template, congratulations. It would be appreciated if you could send me your 'index.Rmd', 'body.Rmd', 'template_yours.tex' and other related files. I will add them into 'bookdownplus' templates and add your name into the contributor list. 
+
+Let's build a 'bookdownplus' template library!
 
 # FAQ {#faq}
 
