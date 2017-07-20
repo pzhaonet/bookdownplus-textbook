@@ -1,10 +1,9 @@
-# Introduction {#introduction}
 
 ## What is 'bookdown' {#what_is__bookdown_}
 
 A book titled *R bookdownplus Textbook* is surely talking about 'bookdownplus' [@R-bookdownplus], but let's start with 'bookdown' [@R-bookdown].
 
-'bookdown' is a software for writing books or documents. It is something like Microsoft Word, but more elegant, more powerful, and easier. If you know LaTeX, it would be much helpful to get into 'bookdown'.  If not, don't worry, it is the reason why I wrote this book. With 'bookdown', users can
+'bookdown' is a software package for writing books or documents based on R language [@R-base] and Markdown syntax. It is something like Microsoft Word, but more elegant, more powerful, and easier. If you know LaTeX, it would be much helpful to get into 'bookdown'.  If not, don't worry, it is the reason why I wrote this book. With 'bookdown', users can
 
 - easily insert table of contents, figures and tables with cross-reference, footnotes, and index; 
 
@@ -20,7 +19,7 @@ If my description is insufficient for you to know what is 'bookdown', you could 
 
 Thus, 'bookdownplus' sounds like something related to 'bookdown' ? 
 
-Yes, you **_R_** right. Many people know that 'bookdown' is an excellent package for authoring books on programming languages. Few people know that it can do more than expected. 'bookdown' looks like a delicious cake. People are wondering how it tastes, but people don't know how to cut it and or how to grab a piece onto their own plates.
+Yes, you **_R_** right. Many people know that 'bookdown' is an excellent package for authoring books on programming languages especially R books. Few people know that it can do more than expected. 'bookdown' looks like a delicious cake. People are wondering how it tastes, but people don't know how to cut it and or how to grab a piece onto their own plates.
 
 ```{r imgcake, fig.cap="A cake of 'bookdown'. How should I cut it in a right way?", out.width='50%', fig.align='center', echo=FALSE}
 knitr::include_graphics("images/cake.jpg")
@@ -28,9 +27,9 @@ knitr::include_graphics("images/cake.jpg")
 
 I expected someone to cut it for me. I was too hungry to wait and I was helping myself. Therefore I developed 'bookdownplus'.
 
-'bookdownplus' is an extension of 'bookdown'. It is a collection of multiple templates, which I have been collecting since years ago on the basis of LaTeX, and have been tailoring them so that I can work happily under the umbrella of 'bookdown'. 'bookdownplus' helps you write varied types of books and documents.  This book you are reading at the moment was exactly produced by 'bookdownplus'.
+'bookdownplus' is an extension of 'bookdown'. It is a collection of multiple templates, which I have been collecting since years ago on the basis of LaTeX, and have been tailoring them so that I can work happily under the umbrella of 'bookdown'. 'bookdownplus' helps you (and me) write varied types of books and documents.  This book you are reading at the moment was exactly produced by 'bookdownplus'.
 
-I believe some official 'bookdown' templates will be available in the near future, but I cannot wait. Can you? The cake will not be fresh any more.
+I believe some official 'bookdown' templates will be available in the near future, but I cannot wait. Can you? I am afraid that the cake will not be fresh any more.
 
 \m{The former project was called bookdown-plus, providing a folder for users to download and modify. It was later abandoned because it was not so convenient as an R package.}
 
@@ -38,9 +37,9 @@ I believe some official 'bookdown' templates will be available in the near futur
 
 ## Why 'bookdownplus' {#why__bookdownplus_}
 
-A tasty cake is not necessarily easy to cut. `bookdown` is not easy for beginners. Try reading the official manual of 'bookdown'^[https://bookdown.org/yihui/bookdown/]. If you are able to build your own book in one hour, I am sure you are a genius and please send me a postcard with your signature. An R beginner might be confused or depressed in struggling in the flood of LaTeX, YAML, Markdown, Pandoc, etc. It would be a pity if users stop their steps at the door and give up the courage of entering the wonderful world of `bookdown`.
+A tasty cake is not necessarily easy to cut. 'bookdown' is not easy for beginners. Try reading the official manual of 'bookdown'^[https://bookdown.org/yihui/bookdown/]. If you are able to build your own book in one hour, I am sure you are a genius and please send me a postcard with your signature. An R beginner might be confused or depressed in struggling in the flood of LaTeX, YAML, Markdown, Pandoc, etc. It would be a pity if users stop their steps at the door and give up the courage of entering the wonderful world of 'bookdown'.
 
-`bookdownplus` is the easiest shortcut to the world of `bookdown`. With **just one single command** users can get a demo book (or multiple demo books) in .pdf or .doc, or even more formats (see the quick start section). `bookdownplus` extends the features of `bookdown`, and simplifies the procedure. Users only have to choose a template, clarify the book title and author name, and then focus on writing the text. No need to struggle in YAML and LaTeX.
+'bookdownplus' is the easiest shortcut to the world of 'bookdown'. With **just one single command** users can get a demo book (or multiple demo books) in .pdf or .doc, or even more formats (see Chapter \@ref(quick_start)). 'bookdownplus' extends the features of 'bookdown', and simplifies the procedure. Users only have to choose a template, clarify the book title and author name, and then focus on writing the text. No need to struggle in YAML and LaTeX.
 
 With 'bookdownplus' you can easily:
 
@@ -58,9 +57,9 @@ With 'bookdownplus' you can easily:
 
 - write guitar chords,
 
-- and more wonders will come soon.
+- and more wonders are coming soon.
 
-## Giants' Shoulders {#giants__shoulders}
+## Shoulders of Giants {#giants__shoulders}
 
 'bookdownplus' is developed on the basis of the following outstanding work:
 
@@ -82,7 +81,7 @@ With 'bookdownplus' you can easily:
 
 - classicthesis package by Andre Miede ^[http://www.ctan.org/tex-archive/macros/latex/contrib/classicthesis/]. \m{Users are encouraged to send Prof. Miede a postcard if they like this package. He has received 417 postcards by 2017-04-30.}
 
-If I miss something that I should cite, please let me know.
+As some codes in 'bookdownplus' were collected long time ago, and some might be re-used and re-re-used many time before apprearing in 'bookdownplus', I might miss some citations. It would be appreciated if you find them and let me know.
 
 # Quick Start {#quick_start}
 
@@ -123,13 +122,13 @@ or the development version on GitHub:
 devtools::install_github('pzhaonet/bookdownplus')
 ```
 
-## How to use {#how_to_use}
+## Three Steps {#how_to_use}
 
 Beginners can follow the three steps given below:
 
 **Step 1. Generate a demo book** 
 
-Firstly check your working directory (`getwd()`) and make sure that it is empty. `bookdownplus` will generate lots of files. An empty folder as a working directory is highly recommended. If you don't know how to change your working directory with R command, you can use RStudio to create a new project (File -- New Project - New Directory -- Empty Project) and work always in this project.
+Firstly check your working directory (`getwd()`) and make sure that it is empty. 'bookdownplus' will generate lots of files. An empty folder as a working directory is highly recommended. If you don't know how to change your working directory with R command, you can use RStudio to create a new project (File -- New Project - New Directory -- Empty Project) and work always in this project.
 
 Run the following codes:
 
@@ -140,13 +139,13 @@ require(bookdownplus)
 bookdownplus()
 ```
 
-Although there are many arguments for `bookdownplus()`, you can simply ignore them and they will use their default values, if you use 'bookdownplus' package for the first time.
+Although there are many arguments available in `bookdownplus()`, you can simply ignore them and they will use their default values, especially when you use 'bookdownplus' package for the first time.
 
 Now a demo file named `*.pdf` in `_book/` folder in your working directory is generated automatically. Open it with any pdf viewer so as to get an impression.
 
 **Step 2. Write your own book**
 
-You can see some other files (e.g. `index.Rmd`, `body.Rmd`, `bookdownplus.Rproj`) and folders. Write your own texts in `body.Rmd` and revise the author and the book title in `index.Rmd`. You can use RStudio or any other text editor (but please don't use Microsoft Word, believe it or not).
+You can see some other files (e.g. 'index.Rmd', 'body.Rmd', 'bookdownplus.Rproj') and folders. Write your own texts in `body.Rmd` and revise the author and the book title in `index.Rmd`. You can use RStudio or any other text editor (but please don't use Microsoft Word, believe it or not).
 
 **Step 3. Build your book**
 
@@ -156,7 +155,7 @@ If you run `bookdownplus()` again in the same working directory, new 'index.Rmd'
 
 ## More output formats
 
-By default, the book is built in a pdf file. From 'bookdownplus v1.0.3', users can get more output formats, including word, html and epub. From 'bookdownplus v1.2.0', uses can see the available output formats by running:
+By default, the book is built in a pdf file. From 'bookdownplus v1.0.3', users can get more output formats, including word (Microsoft Word), html (any web browser) and epub (for smart phones, or displayed by Calibre on desktop computers). From 'bookdownplus v1.2.0', uses can see the available output formats by running:
 
 ```{r}
 more_output()
@@ -172,7 +171,7 @@ Then all the required output files are in `_book/` folder.
 
 ## More templates
 
-By default, the book is built from the 'theis_classic' template. From 'bookdownplus v1.2.0', uses can see the available templates by running:
+By default, the demo book is built from the 'theis_classic' template. From 'bookdownplus v1.2.0', uses can see the available templates by running:
 
 ```{r}
 template()
@@ -189,29 +188,59 @@ Then all the required output files are in `_book/` folder.
 The detailed usage of each template is described in Chapter \@ref(simple) to \@ref(advanced).
 
 
-## A magic trick
+## Magic tricks
 
-Now it is time to witness the miracle. Run the following codes, and go for a coffee break. When you come back, you will get 19 demo books generated automatially from available tempaltes, each in .pdf, .doc, .html, and .epub formats, in `_book/`:
+Now it is time to witness the miracles. With the following magic tricks you will see what 'bookdownplus' can do.
 
-```{r, eval=FALSE}
-for (i in template()[1:19])
-  bookdownplus(template = i, 
-               more_output = more_output()[1:3])
+**Magic I**
+
+Run the following codes, and go and have a coffee break. When you come back, you will get 19 demo books generated from available templates, each in .pdf, .doc, .html, and .epub formats, in `_book/`:
+
+``` r
+for (i in template()[1:19]) 
+  bookdownplus(template = i, more_output = more_output()[1:3])
+```
+
+**Magic II**
+
+Run the following codes. You will get all the demo files for different fonts, themes and styles from the 'mail' template:
+
+``` r
+for (mf in mail_font()) {
+  for (ms in mail_style()) {
+    for (mt in mail_theme()) {
+      bookdownplus(template = 'mail', 
+      mail_style = ms, 
+      mail_font = mf, 
+      mail_theme = mt, 
+      output_name = paste('mail', ms, mf, mt, sep = '_'))
+    }
+  }
+}
 ```
 
 ## Recommendations
 
-I have been developing some other packages, which bring more features into 'bookdown', such as:
+As mentioned before, 'bookdownplus' generates multiple files. Most of them are useful to your computer rather than to you. They are annoying. You might wonder: may I remove them? Here is the answer. 
 
-- [mindr](https://cran.r-project.org/web/packages/mindr) [@R-mindr], which can extract the outline of your book and turn it into a mind map, and
+- If you are a beginner, I would suggest that you should keep all these files when writing your own book. As soon as your book is done, make sure to backup the files you have modified, such as `body.Rmd` and `index.Rmd`, as well as the productions in `_book/`, and then be free to remove all the rest files. If you have to revise your book in the future, your can run `bookdownplus()` again, and then replace the demo .Rmd files with your own ones. 
 
-- [pinyin](https://cran.r-project.org/web/packages/pinyin) [@R-pinyin], which can automatically generate ['{#ID}'](https://bookdown.org/yihui/bookdown/cross-references.html) of the chapter headers even if there are Chinese characters in them.
+- If you are an expert, I would suggest that you could pick out those useful demo files in each sub-folder of your working directory, keep them, and remove the redundant files. In the future version of 'bookdownplus', redundant files might be filtered automatically if necessary.
+
+Furthermore, I have been developing some other packages, which bring more features intoF 'bookdown', such as:
+
+- [mindr](https://cran.r-project.org/package=mindr) [@R-mindr], which can extract the outline of your book and turn it into a mind map, 
+
+- [pinyin](https://cran.r-project.org/packages=pinyin) [@R-pinyin], which can automatically generate ['{#ID}'](https://bookdown.org/yihui/bookdown/cross-references.html) of the chapter headers even if there are Chinese characters in them, and
+
+- [beginr](https://cran.r-project.org/packages=beginr) [@R-beginr], which can generate bibliography entries for installed R packages.
 
 Both of them have been released on CRAN and can be installed via `install.packages()` function:
 
 ```{r, eval=FALSE}
 install.packages('mindr')  
 install.packages('pinyin')
+install.packages('beginr')
 ```
 
 Enjoy your bookdowning!
@@ -220,7 +249,7 @@ Enjoy your bookdowning!
 
 ## Markdown Syntax {#markdown_syntax}
 
-This chapter briefly introduces Markdown and its syntax in 'bookdown'. You can skip this chapter if you are already an R 'bookdown' user. The cheat sheet given here is a memo comprised of some simple notes without explanation.  You can check this chapter if you forget something when using 'bookdown'. The details and explanations of the syntax can be found in the bookdown manual ^[https://bookdown.org/yihui/bookdown/].
+This chapter briefly introduces Markdown and its syntax in 'bookdown'. You can skip this chapter if you are already an R 'bookdown' user. This chapter is a simply memo comprised of some summarized notes without detailed explanation. You can check this chapter if you forget something when using 'bookdown'. The details and explanations of the syntax can be found in the bookdown manual ^[https://bookdown.org/yihui/bookdown/] or the Markdown cheatsheets in RStudio - Help - Cheatsheets.
 
 ### What is Markdown {#what_is_markdown}
 
@@ -238,11 +267,11 @@ marks                              output
 `R^2^`                             R^2^ (superscript)
 `$E = mc^2$`                       $E = mc^2$ inline equation
                                    (`$$` for displayed equation)
-`[hyperlink](http://bookdown.org)` [hyperlink](http://bookdown.org)
+`[hyperlink](http://pzhao.net)` [hyperlink](http://pzhao.net)
 `<pzhao@pzhao.net>`                <pzhao@pzhao.net> email
 `![](hyperlink of figure)`         insert a figure
 `> quote`                          quote
-\`code\`                           `code`
+`` `code` ``                       `code`
 `# Chapter One`                    chapter title
 `1. First`                         numbered list 
 `- First`                          unnumbered list
@@ -325,7 +354,9 @@ Bibliography: `# References {-}`
 Created a library of R packages for bibliography:
 
 ```{r, eval=FALSE}
-knitr::write_bib(c("knitr", "stringr"), "", width = 60)
+knitr::write_bib(c("bookdownplus", "beginr"), "", width = 60)
+# or
+beginr::bib(c("bookdownplus", "beginr"))
 ```
 
 ### Theorems, lemma, definitions, etc. {#theorems__lemma__definitions__etc_}
@@ -344,15 +375,7 @@ r {Full name, label=, name=}
 
 `\@ref(Abbreviation:label)`
 
-test 
 
-### Export Word document {#export_word_document}
-
-Insert the following line into _output.yml:
-
-```
-bookdown::word_document2: default 
-```
 
 ### Equations numbering {#equations_numbering}
 
@@ -379,7 +402,7 @@ I like Eq. \@ref(eq:mc2) so much that I am falling love with her.
 
 # Simple {#simple}
 
-There are three *simple* templates in 'bookdownplus': 'yihui_mini' ^[https://github.com/yihui/bookdown-minimal], 'yihui_demo' ^[https://github.com/rstudio/bookdown-demo], and 'yihui_zh' ^[https://github.com/yihui/bookdown-chinese]. They are not really simple. I call them *simple* only because I simply copied them from Yihui Xie's GitHub repos. My contribution is that I tailored them into 'bookdownplus' so that I don't have to download those repos every time when I start a new book.
+There are three *simple* templates in 'bookdownplus': 'yihui_mini' ^[https://github.com/yihui/bookdown-minimal], 'yihui_demo' ^[https://github.com/rstudio/bookdown-demo], and 'yihui_zh' ^[https://github.com/yihui/bookdown-chinese]. They are not really simple. I call them *simple* only because I simply copied them from Yihui Xie's GitHub repos. My contribution was that I tailored them into 'bookdownplus' so that I don't have to download those repos every time when I start a new book.
 
 You can write a standard book with the 'yihui_demo' template by simply running:
 
@@ -399,6 +422,8 @@ or a book in Chinese with the 'yihui_zh' template by running
 bookdownplus(template = 'yihui_zh')
 ```
 
+Your will get a book file named 'yihui_*.pdf' in '_book/' folder as an example.
+
 If you would like to specify the title and author, you can either use the `author` and `title` arguments, e.g.:
 
 ```{r, eval=FALSE}
@@ -407,18 +432,18 @@ bookdownplus(template = 'yihui_demo',
              title = 'My book')
 ```
 
-or modify them in your files later.
+or modify them in 'index.Rmd' later.
 
-In your working directory you could now open 'bookdownplus.Rproj' with RStudio. Press 'ctrl+shift+b' to build it. Your will get a book file named 'yihui_*.pdf' in '_book/' folder as an example.
+In your working directory you could now open 'bookdownplus.Rproj' with RStudio. Write your own text in 'index.Rmd' and 'body.Rmd', and press 'ctrl+shift+b' to build your own book.
 
-Write your own text in 'index.Rmd' and 'body.Rmd', and build your own book. You could revise the title and author list in 'index.Rmd' as well.
+
 
 # Lifestyle {#lifestyle}
 
 ## Journal {#journal}
 
 
-```{r imgjournal, fig.cap='A journal', out.width='90%', fig.align='center', echo=FALSE}
+```{r imgjournal, fig.cap="A demo book produced by the 'journal' template.", out.width='90%', fig.align='center', echo=FALSE}
 knitr::include_graphics("images/journal_cropped.png")
 ```
 
@@ -428,6 +453,8 @@ You can write a laboratory journal or a personal diary with the 'journal' templa
 bookdownplus(template = 'journal')
 ```
 
+Your will get a book file named 'journal.pdf' in '_book/' folder as an example. 
+
 If you would like to specify the title and author, you can run the following code instead:
 
 ```{r, eval=FALSE}
@@ -436,9 +463,7 @@ bookdownplus(template = 'journal',
              title = 'My journal')
 ```
 
-In your working directory you could now open 'bookdownplus.Rproj' with RStudio. Press 'ctrl+shift+b' to build it. Your will get a book file named 'journal.pdf' in '_book/' folder as an example. 
-
-Write your own text in 'index.Rmd' and 'body.Rmd', and build your own journal book. You could revise the title and author list in 'index.Rmd'.
+In your working directory you could now open 'bookdownplus.Rproj' with RStudio. Write your own text in 'index.Rmd' and 'body.Rmd', and press 'ctrl+shift+b' to build your own journal book. You could revise the title and author list in 'index.Rmd'.
 
 You might notice the wide margin of the pages. The margins are for your future use, i.e. adding comments or notes.
 
@@ -451,9 +476,9 @@ A poem book produced with 'bookdownplus' looks like Fig. \@ref(fig:imgpoem). You
 ```{r, eval=FALSE}
 bookdownplus(template = 'poem')
 ```
+Your will get a book file named 'poem.pdf' in '_book/' folder as an example.
 
-
-```{r imgpoem, fig.cap='A poem book', out.width='80%', fig.align='center', echo=FALSE}
+```{r imgpoem, fig.cap="A demo book produced by the 'poem' template.", out.width='80%', fig.align='center', echo=FALSE}
 knitr::include_graphics("images/poem_cropped.png")
 ```
 
@@ -465,20 +490,23 @@ bookdownplus(template = 'poem',
              title = 'My Poem book')
 ```
 
-In your working directory you could now open 'bookdownplus.Rproj' with RStudio. Press 'ctrl+shift+b' to build it. Your will get a book file named 'poem.pdf' in '_book/' folder as an example.
+In your working directory you could now open 'bookdownplus.Rproj' with RStudio. Write your own text in 'index.Rmd' and 'body.Rmd', and press 'ctrl+shift+b' to build your own poem book. You could revise the title and author list in 'index.Rmd'.
 
-Write your own text in 'index.Rmd' and 'body.Rmd', and build your own poem book. You could revise the title and author list in 'index.Rmd'.
-
-In 'body.Rmd' you can use the mark `\bb{}` to enlarge the first letter of each paragraph of a poem. \m{Is it called 'paragraph' or somthing else? I am not sure.}
+In 'body.Rmd' you can use the mark `\bb{}` to enlarge the first letter of each paragraph of a poem. \m{Is it called 'paragraph' or something else? I am not sure.}
 
 ## Music {#music}
 
 Writing books including music pieces is difficult. Think about how to do it in Microsoft Word. Fortunately 'bookdown' works on the top of LaTeX, and there are LaTeX solutions for music books.
 
-You can write a guitar chord book by simply running:
+For example, you can write a guitar chord book by simply running:
 
 ```{r, eval=FALSE}
 bookdownplus(template = 'guitar')
+```
+Your will get a book file named 'guitar.pdf' in '_book/' folder as an example. The book looks like Fig. \@ref(fig:imgguitar).
+
+```{r imgguitar, fig.cap='A guitar chord book', out.width='80%', fig.align='center', echo=FALSE}
+knitr::include_graphics("images/guitar_cropped.png")
 ```
 
 If you would like to specify the title and author, you can run the following code instead:
@@ -489,19 +517,13 @@ bookdownplus(template = 'guitar',
              title = 'My Guitar book')
 ```
 
-In your working directory you could now open 'bookdownplus.Rproj' with RStudio. Press 'ctrl+shift+b' to build it. Your will get a book file named 'guitar.pdf' in '_book/' folder as an example. The book looks like Fig. \@ref(fig:imgguitar).
-
-```{r imgguitar, fig.cap='A guitar chord book', out.width='80%', fig.align='center', echo=FALSE}
-knitr::include_graphics("images/guitar_cropped.png")
-```
-
-Write your own text in 'index.Rmd' and 'body.Rmd', and build your own guitar chord book. You could revise the title and author list in 'index.Rmd'.
+In your working directory you could now open 'bookdownplus.Rproj' with RStudio. Write your own text in 'index.Rmd' and 'body.Rmd', and press 'ctrl+shift+b' to build your own guitar chord book. You could revise the title and author list in 'index.Rmd'.
 
 Open 'body.Rmd', and you could see how the chords are inserted. For example, the mark `\F` means 'F chord', and the mark `\Am` means 'A minor chord'. These marks are pre-defined by users in 'tex/template_guitar.tex'. I have defined some often-used chords. If you are interested, you can add more chords and share them with me, so that we could build a complete chord library for 'bookdownplus' users. The method to define a new chord can be found in the documentation of 'gchord' ^[http://kasper.phi-sci.com/gchords/], which is a LaTeX package for typesetting guitar chord diagrams by Kasper Peeters.
 
-Writing a guitar chord book ^[https://bookdown.org/baydap/bdguitar/] is the upper limit of my knowledge in music. I would not go further in this direction, but you can do more with 'bookdown' if you want. The 'musixtex' package ^[https://www.ctan.org/pkg/musixtex?lang=en] of LaTeX makes it possible to typesetting music like Fig. \@ref(fig:imgmusixtex). I guess it should not be difficult to tailor it into 'bookdownplus'. Be brave to do it!
+Writing a guitar chord book ^[https://bookdown.org/baydap/bdguitar/] is the upper limit of my knowledge in music. I would not go further in this direction, but you can do more with 'bookdown' if you want to. For instance, the 'musixtex' package ^[https://www.ctan.org/pkg/musixtex?lang=en] of LaTeX makes it possible to typesetting music like Fig. \@ref(fig:imgmusixtex). I guess it should not be difficult to tailor it into 'bookdownplus'. Be brave to do it!
 
-```{r imgmusixtex, fig.cap='Typesetting music with musixtex package', out.width='80%', fig.align='center', echo=FALSE}
+```{r imgmusixtex, fig.cap='Typesetting music with musixtex package.', out.width='80%', fig.align='center', echo=FALSE}
 knitr::include_graphics("images/musixtex.png")
 ```
 
@@ -509,20 +531,21 @@ knitr::include_graphics("images/musixtex.png")
 
 ## Mail {#mail}
 
-The 'mail' template generates a mail like Fig. \@ref(fig:imgmail). There are multiple options in the 'mail' template, with which you can produce different types of letters. These options can be classified into two groups: content and theme.
+The 'mail' template generates a mail like Fig. \@ref(fig:imgmail). There are multiple options in the 'mail' template, with which you can produce different types of letters. These options can be classified into two groups: contents and themes.
 
-```{r imgmail, fig.cap='A personal mail', out.width='80%', fig.align='center', echo=FALSE}
+```{r imgmail, fig.cap="A personal mail produced by the 'mail' template", out.width='80%', fig.align='center', echo=FALSE}
 knitr::include_graphics("images/mail_cropped.png")
 ```
 
 ### Arguments for mail content
 
-A letter has a unique structure different from other documents. There are sender's and recipient's addresses, their phones and affiliations, and the opening and closing words. These must be specified in the arguments of `bookdownplus()`:
+A letter has a unique structure, different from other documents. There are e.g. the sender's and recipient's addresses, their phones and affiliations, the opening and closing words, etc.. These must be specified in the arguments of `bookdownplus()`:
 
 ```{r, eval=FALSE}
-bookdownplus(author = "Peng Zhao",
+bookdownplus(template = 'mail',
+             author = "Peng Zhao",
              mail_from_address = "15 Robin Hood Lane", 
-             mail_from_town = "11758  Massapequa, Long Island, New York", 
+             mail_from_town = "11758  Massapequa, New York", 
              mail_from_phone = "31415926", 
              mail_from_mobile = "31415927", 
              mail_from_fax = "31415928", 
@@ -536,7 +559,9 @@ bookdownplus(author = "Peng Zhao",
              mail_date = "25 June, 2017")
 ```
 
-I believe these arguments are self-explanary.
+I believe these arguments are self-explanatory.
+
+If you would like to change these pieces of information, you change revise  `\tex\template_mail_user.tex`, which requires a little knowledge in LaTeX.
 
 ### Mail themes
 
@@ -562,6 +587,7 @@ mail_theme()
 
 They are actually the colors of the sender's name.
 
+Some different themes might result in the same output, because they are not all supported by a certain style.
 
 As you are writing a mail to print, it would be nice if you think about the receiver's eyesight. You could change the font size of your mail by using the `mail_font()` argument for the fonts of your mail body, `mail_bodysize` argument for the font size of the mail body, and `mail_fontsize()` argument of the entire mail.
 
@@ -579,7 +605,6 @@ mail_fontsize()
 mail_bodysize()
 ```
 
-
 ## Calendar {#calendar}
 
 Creating a calendar with 'bookdown' is challenging, but possible, if only you accept LaTeX. More or less, the 'calendar' template may help us see how far we can go with 'bookdown'.
@@ -592,7 +617,7 @@ bookdownplus(template = 'calendar')
 
 In your working directory you could now open 'bookdownplus.Rproj' with RStudio. Press 'ctrl+shift+b' to build it. Your will get a file named 'calendar.pdf' in '_book/' folder as an example. The calendar looks like Fig. \@ref(fig:imgcalendar).
 
-```{r imgcalendar, fig.cap='A monthly calendar', out.width='100%', fig.align='center', echo=FALSE}
+```{r imgcalendar, fig.cap="A monthly calendar produced by the 'calendar' template.", out.width='100%', fig.align='center', echo=FALSE}
 knitr::include_graphics("images/calendar.png")
 ```
 
@@ -602,15 +627,16 @@ The content of the calendar can be revised in 'body.tex'. There are examples and
 
 ## Articles {#articles}
 
-Writing academic articles with 'bookdown' was my original intention of developing 'bookdownplus'. This chapter comes so late because I don't want this book to scare those non-academic users. Actually, writing academic articles is the most beautiful essence of 'bookdown' from my point of view. Only in an academic article can users utilize the full support of superscripts, subscripts, footnotes, equations, tables, reproducible figures, citations, and cross-references.
+Writing academic articles with 'bookdown' was my original intention of developing 'bookdownplus'. This chapter comes so late because I would not like those non-academic users to be scared. Actually, writing academic articles is the most beautiful essence of 'bookdown' from my point of view. Only in an academic article can users utilize the full support of superscripts, subscripts, footnotes, equations, tables, reproducible figures, citations, and cross-references.
 
 An academic article produced with 'bookdownplus' looks like Fig. \@ref(fig:imgarticle). You can write such an article with the 'article' template by simply running:
 
 ```{r, eval=FALSE}
 bookdownplus(template = 'article')
 ```
+Your will get a book file named 'article.pdf' in '_book/' folder as an example.
 
-```{r imgarticle, fig.cap='An academic article', out.width='80%', fig.align='center', echo=FALSE}
+```{r imgarticle, fig.cap="An academic article produced by the 'article' tempalte.", out.width='80%', fig.align='center', echo=FALSE}
 knitr::include_graphics("images/article_cropped.png")
 ```
 
@@ -622,17 +648,22 @@ bookdownplus(template = 'article',
              title = 'My article')
 ```
 
-or revise it later.
 
-In your working directory you could now open 'bookdownplus.Rproj' with RStudio. Press 'ctrl+shift+b' to build it. Your will get a book file named 'article.pdf' in '_book/' folder as an example.
+In your working directory you could now open 'bookdownplus.Rproj' with RStudio. 
+Write your own text in 'index.Rmd' and 'body.Rmd', and press 'ctrl+shift+b' to build your own article. You could revise the title and author list in 'index.Rmd'.
 
-Write your own text in 'index.Rmd' and 'body.Rmd', and build your own article. You could revise the title and author list in 'index.Rmd'.
-
-By default, the 'article' templates uses the two-columned LaTeX package by Copernicus Publications ^[http://publications.copernicus.org/for_authors/latex_instructions.html]. They provide a template for discussion layrout as well, which was tailored as the 'discussion' template:
+By default, the 'article' templates uses the two-columned LaTeX package by Copernicus Publications ^[http://publications.copernicus.org/for_authors/latex_instructions.html]. They provide a template for discussion layout as well, which was tailored as the 'discussion' template:
 
 ```{r, eval=FALSE}
 bookdownplus(template = 'discussion')
 ```
+
+For the sake of the copyright, you can find in the header the following texts: 
+
+> Manuscript prepared for J. Name with version 4.2 of the LATEX class copernicus.cls.
+
+You can remove them for personnel use if you don't like it. Open 'style/copernicus.cls' with a text editor, and remove or revise Line 1006 and 1192.
+
 
 Furthermore, numerous academic journals provide their own LaTeX templates. Although I will add more article templates to 'bookdownplus' \m{quite dependent on my academic career} in the future, it would be appreciated if you join me and share your work.
 
@@ -643,11 +674,14 @@ An academic thesis produced with 'bookdownplus' looks like Fig. \@ref(fig:imgthe
 ```{r, eval=FALSE}
 bookdownplus(template = 'thesis_ubt')
 ```
-```{r imgthesisubt, fig.cap='A thesis of University of Bayreuth',  out.width='80%', fig.align='center', echo=FALSE}
+
+Your will get a book file named 'thesis_ubt.pdf' in '_book/' folder as an example.
+
+```{r imgthesisubt, fig.cap="A demo thesis of University of Bayreuth, produced by the thesis ubt template.",  out.width='80%', fig.align='center', echo=FALSE}
 knitr::include_graphics("images/thesis-ubt_cropped.png")
 ```
 
-In your working directory you could now open 'bookdownplus.Rproj' with RStudio. Press 'ctrl+shift+b' to build it. Your will get a book file named 'thesis_ubt.pdf' in '_book/' folder as an example.
+In your working directory you could now open 'bookdownplus.Rproj' with RStudio. Press 'ctrl+shift+b' to build it. 
 
 The postfix 'ubt' is the abbreviation of University of Bayreuth (UBT) where I achieved my PhD. The 'thesis_ubt' template is actually originated from the LaTeX file of my PhD dissertation. Thanks to my UBT colleagues who taught me how to use LaTeX. 
 
@@ -667,17 +701,17 @@ Now it is done.
 
 The dissertation of UBT requires some chapters written in German, which you can see in 'tex/template_thesis_ubt.tex'. I leave them there for the convenience of those users studying in German speaking regions. If you don't need them, just simply remove them as you like.
 
-Besides 'thesis_ubt', a simple template called 'thesis_mypku' can be performed for those written in Chinese:
+Besides 'thesis_ubt', a simple template called 'thesis_mypku_zh' can be performed for those written in Chinese:
 
 ```{r, eval=FALSE}
-bookdownplus(template = 'thesis_mypku')
+bookdownplus(template = 'thesis_mypku_zh')
 ```
 
-This template was modified from 'yihui_zh' template with some pages from my master thesis in Peking University (PKU). Be careful, though, if you use this template to write your PKU thesis. There have been official requrements for the thesis format recently, which is different from my thesis written more than a decade ago. 
+This template was modified from 'yihui_zh' template with some pages from my master thesis in Peking University (PKU). Be careful, though, if you use this template to write your PKU thesis. There have been official requirements for the thesis format recently, which is different from my thesis written more than a decade ago. 
 
-Other templates for academic thesis are 'thesis_classic' and 'thesis_zju'. The pdf version of this book you are reading now is created with 'thesis_classic' by Andre Miede ^[http://www.ctan.org/tex-archive/macros/latex/contrib/classicthesis/]. You can see how it works in the source code of this book ^[https://github.com/pzhaonet/bookdown-plus-textbook]. For example, you could add a `subtitle` field in the YAML header of 'index.Rmd', then the subtitle apprears on the cover page of the book.
+Other templates for academic thesis are 'thesis_classic' and 'thesis_zju_zh'. The [pdf version of this book](https://bookdown.org/baydap/bookdownplus/bookdownplus.pdf) you are reading now is created with 'thesis_classic' by Andre Miede ^[http://www.ctan.org/tex-archive/macros/latex/contrib/classicthesis/]. You can see how it works in the source code of this book ^[https://github.com/pzhaonet/bookdown-plus-textbook]. For example, you could add a `subtitle` field in the YAML header of 'index.Rmd', then the subtitle apprears on the cover page of the book.
 
-The 'thesis_zju' template is modified from the LaTeX template of thesis of Zhejiang Uni., which will be described in Chapter \@ref(thesis).
+The 'thesis_zju_zh' template is modified from the LaTeX template of thesis of Zhejiang University, which will be described in Chapter \@ref(thesis).
 
 Numerous universities and institutes provide their own LaTeX templates for thesis. Although I will add more thesis templates to 'bookdownplus' in the future, it would be appreciated if you join me and share your work.
 
@@ -741,21 +775,21 @@ A chemistry article or book produced with 'bookdownplus' looks like Fig. \@ref(f
 bookdownplus(template = 'chemistry')
 ```
 
-```{r imgchemistry, fig.cap='A chemistry book', out.width='80%', fig.align='center', echo=FALSE}
+Your will get a book file named 'chemistry.pdf' in '_book/' folder as an example.
+
+```{r imgchemistry, fig.cap="A chemistry book produced by the 'chemistry' tempalte.", out.width='80%', fig.align='center', echo=FALSE}
 knitr::include_graphics("images/chemistry_cropped.png")
 ```
 
-In your working directory you could now open 'bookdownplus.Rproj' with RStudio. Press 'ctrl+shift+b' to build it. Your will get a book file named 'chemistry.pdf' in '_book/' folder as an example.
-
-Write your own text in 'index.Rmd' and 'body.Rmd', and build your own poem book. You could revise the title and author list in 'index.Rmd'.
+In your working directory you could now open 'bookdownplus.Rproj' with RStudio. Write your own text in 'index.Rmd' and 'body.Rmd', and  press 'ctrl+shift+b' to build your own chemistry book. You could revise the title and author list in 'index.Rmd'.
 
 In 'body.Rmd' you can see how to insert chemical formulae, chemical equations, and structural formulae. For more details, please see the 'mhchem' LaTeX package by Martin Hensel ^[https://www.ctan.org/pkg/mhchem].
 
 # Advanced {#advanced}
 
-## Chinese {#chinese}
+## Chinese Support {#chinese}
 
-The support for Chinese typesetting with 'bookdown' is tricky. Briefly speaking, you need a LaTeX template which supports Chinese characters and styles. In Chapter \@ref(simple) the template 'yihui_zh' was introduced. It is a nice template for daily use. However, you might encounter some problems when producing html files from the chapter headers which contains Chinese characters, especially those mixes with Latin letters. See the discussion between me and Yihui ^[https://disqus.com/home/discussion/yihui/_yihui_xie_679/#comment-3175332429]. One solution is to add `{#identifier}` manually to those problematic headers. I tried this. It was boring because I finished a book first and added the #IDs later. Another solution is using the 'pinyin' package [@R-pinyin]. A function called `bookdown2py()` can convert the headers into pinyin (the official romanization system for Standard Chinese^[https://en.wikipedia.org/wiki/Pinyin]) and add the #IDs automatically:
+The support for Chinese typesetting with 'bookdown' is tricky. Briefly speaking, you need a LaTeX template which supports Chinese characters and styles. In Chapter \@ref(simple) the template 'yihui_zh' was introduced. It is a nice template for daily use. However, you might encounter some problems when producing html files from the chapter headers which contains Chinese characters, especially those mixed with Latin letters. See the discussion between me and Yihui ^[https://disqus.com/home/discussion/yihui/_yihui_xie_679/#comment-3175332429]. One solution is to add `{#identifier}` manually to those problematic headers. I tried this. It works fine if you do it when writing a new chapter, but it is boring if you do it after finishing a book. Another solution is using the 'pinyin' package [@R-pinyin]. A function called `bookdown2py()` can convert the headers into pinyin (the official romanization system for Standard Chinese^[https://en.wikipedia.org/wiki/Pinyin]) and add the #IDs automatically:
 
 ```{r, eval=FALSE}
 install.packages('pinyin')
@@ -778,27 +812,26 @@ If you are writing an academic article in Chinese, you can use the 'article_zh' 
 ```{r, eval=FALSE}
 bookdownplus(template = 'article_zh')
 ```
+You will get a file named 'article_zh.pdf' in '_book/' folder as an example (Fig. \@ref(fig:imgarticlezh)). 
 
-In your working directory you could now open 'bookdownplus.Rproj' with RStudio. Press 'ctrl+shift+b' to build it, and you will get a file named 'article_zh.pdf' in '_book/' folder as an example (Fig. \@ref(fig:imgarticlezh)). 
 
-```{r imgarticlezh, fig.cap='An academic article in Chinese', out.width='80%', fig.align='center', echo=FALSE}
+```{r imgarticlezh, fig.cap="An academic article in Chinese produced by the 'article zh' template. ", out.width='80%', fig.align='center', echo=FALSE}
 knitr::include_graphics("images/article-zh_cropped.png")
 ```
 
-Similar to other templates, you can write your own text in 'index.Rmd' and 'body.Rmd'. You could revise the title and author list in 'index.Rmd'.
+Similar to other templates, in your working directory you could now open 'bookdownplus.Rproj' with RStudio. You can write your own text in 'index.Rmd' and 'body.Rmd', and then press 'ctrl+shift+b' to build it.
 
 The particular section of this demo file is the abstract. It is bilingual with different formats from the main body. You can revise your abstract in 'abstract.tex'. It is self-explanatory, although written in LaTeX. I wish I could tailor it into markdown, but I don't think it is necessary. 
 
-If 'yihui_zh' template does fulfil your request for academic thesis in Chinese, you could use the 'theis_zju' template:
+If these templates do not fulfil your request for academic thesis in Chinese, you could use the 'theis_zju' template:
 
 ```{r, eval=FALSE}
-bookdownplus(template = 'thesis_zju')
+bookdownplus(template = 'thesis_zju_zh')
 ```
+You will get a file named 'thesis_zju_zh.pdf' in '_book/' folder as an example (Fig. \@ref(fig:imgthesiszju)).
 
-In your working directory you could now open 'bookdownplus.Rproj' with RStudio. Press 'ctrl+shift+b' to build it, and you will get a file named 'thesis_zju.pdf' in '_book/' folder as an example (Fig. \@ref(fig:imgthesiszju)). 
 
-
-```{r imgthesiszju, fig.cap="A thesis generated from zju template", out.width='80%', fig.align='center', echo=FALSE}
+```{r imgthesiszju, fig.cap="A thesis generated from 'zju' template.", out.width='80%', fig.align='center', echo=FALSE}
 knitr::include_graphics("images/thesis-zju_cropped.png")
 ```
 
@@ -811,7 +844,16 @@ A combination of multiple templates could generate a new one, such as the 'chemi
 ```{r, eval=FALSE}
 bookdownplus(template = 'chemistry_zh')
 ```
-Open 'bookdownplus.Rproj' and press 'ctrl+shift+b' to build it, and you will get a file named 'chemistry_zh.pdf' in '_book/' folder. Now you can write a chemistry book in Chinese. This template is the child parented by 'yihui_zh' and 'chemistry' templates. In this way you could customize your own template. A further description of creating your own templates is in Chapter \@ref(customize).
+You will get a file named 'chemistry_zh.pdf' in '_book/' folder.
+
+This template is the child parented by 'yihui_zh' and 'chemistry' templates. In this way you could customize your own template. A further description of creating your own templates is in Chapter \@ref(customize).
+
+Each of the templates which support Chinese characters has name ended with '_zh'. To display these templates, run:
+
+```{r}
+grep('_zh$', template(), value = TRUE)
+```
+As a regular expression, `$` means the end of a string.
 
 ## Mind Map {#mind_map}
 
@@ -821,7 +863,7 @@ Now you have your books or thesis done. It would be nice to show the outline of 
 knitr::include_graphics("images/mindmap.jpg")
 ```
 
-Owing to the advantage of 'bookdown', you don't have to draw such a mind map by hand. This mind map is automatically generated from the 'body.Rmd' file of the 'R bookdownplus Textbook' by using the R package 'mindr' ^[@R-mindr]:
+Owing to the advantage of 'bookdown', you don't have to draw such a mind map by hand. This mind map is automatically generated from the 'body.Rmd' file of the 'R bookdownplus Textbook' by using the R package 'mindr' [@R-mindr]:
 
 ```{r, eval=FALSE}
 install.packages('mindr')
@@ -833,23 +875,23 @@ With the 'mindr' package you can easily extract the outline from your 'bookdown'
 
 ## Create Your Own Templates {#customize}
 
-`bookdownplus` provides you around 20 templates (Version 1.2.0) and more will be included in the future. I am not an expert in LaTeX but I have successfully created the pdf templates described in this book. It means that creating a LaTeX template does not require much knowledge in LaTeX. If you know the general workflow of LaTeX, and study the 'bookdownplus' templates carefully, and read Chapter 4 of the official manual of 'bookdown'^[https://bookdown.org/yihui/bookdown/], you will get the idea of how to create your own templates. 
+'bookdownplus' provides you around 20 templates (Version 1.2.0) and more will be included in the future. I am not an expert in LaTeX but I have successfully created the pdf templates described in this book. It means that creating a LaTeX template does not require much knowledge in LaTeX. If you know the general workflow of LaTeX, and study the 'bookdownplus' templates carefully, and read Chapter 4 of the official manual of 'bookdown'^[https://bookdown.org/yihui/bookdown/], you will get the idea of how to create your own templates. 
 
 Here is some hints from my experience on creating a new template from am existing LaTeX template:
 
 - Find a nice LaTeX template. There are many websites that provide free LaTeX templates. You can download one you like most. Those with good documentations and comments are highly recommended.
 
-- Compile the LaTeX template file to make sure that it can work fine and produce the right pdf file. You could either use command lines or use some software like TexStudio to compile it. You could send to me this template with its full documentation and your pdf file, if you do not want to continue. I would try tailoring it into 'bookdownplus' but it is not guaranteed. It depends on my time and mood. Thus I recommend you to be brave and continue the next steps.  
+- Compile the LaTeX template file to make sure that it can work fine and produce the right pdf file. You could either use command lines or use some software like TexStudio to compile it. You could send to me this template with its full documentation and your pdf file, if you do not want to continue by yourself. I would try tailoring it into 'bookdownplus' but it is not guaranteed. It depends on my time and mood. Thus I recommend you to be brave and continue the next steps.  
 
 - Cut the template into 'template_yours.tex' and 'index.Rmd' in the following way:
 
-  - The main body of the LaTeX are the part between `\begin{document}` and `\end{document}`. Replace the main body with `$body$`, which will be filled with 'body.Rmd'. You can use any 'body*.Rmd' created by 'bookdownplus'.
+  - The main body of the LaTeX are the part between `\begin{document}` and `\end{document}`. Replace the main body with `$body$`, which will be filled with 'body.Rmd'. You can use any demo 'body*.Rmd' created by 'bookdownplus'.
   
   - Use any 'index.Rmd' created by 'bookdownplus' and modify the name of the LaTex template in 'index.Rmd'.
   
 - If the LaTeX template is simple enough, now you may build this template book with 'bookdown'. 
 
-- Usually it won't work. A good-looking LaTeX template is mostly complicated, especially those in Chinese. Probably you have to modify the preamble, pick out some parts and save them and specify them in 'index.Rmd'. See the official manual of 'bookdown'^[https://bookdown.org/yihui/bookdown/yaml-options.html].
+- Usually it won't work. A good-looking LaTeX template is most likely complicated, especially those in Chinese. Probably you have to modify the preamble, pick out some parts and save them and specify them in 'index.Rmd'. See the official manual of 'bookdown'^[https://bookdown.org/yihui/bookdown/yaml-options.html].
 
 - If you can successfully build your book with your new template, congratulations. It would be appreciated if you could send me your 'index.Rmd', 'body.Rmd', 'template_yours.tex' and other related files. I will add them into 'bookdownplus' templates and add your name into the contributor list. 
 

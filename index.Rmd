@@ -16,7 +16,7 @@ output:
     pandoc_args: --chapters
     quote_footer: ["\\begin{flushright}", "\\end{flushright}"]
 #    dev: "cairo_pdf"
-bibliography: [bib/zhaor.bib]
+bibliography: ['d:/Dropbox/Literature/zhaor.bib']
 biblio-style: apalike
 link-citations: yes
 colorlinks: no  
@@ -30,3 +30,5 @@ github-repo: "pzhaonet/bookdownplus-textbook"
 url: 'https\://bookdown.org/pzhao/bookdownplus/'
 cover-image: "images/cover.jpg"
 ---
+
+# Introduction {#introduction}
