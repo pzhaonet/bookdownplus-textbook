@@ -1,6 +1,6 @@
 --- 
 title: "R bookdownplus Textbook"
-subtitle: "Authoring Varied Types of Books and Documents with R bookdown"
+subtitle: "Authoring Varied Types of Books and Documents Easily with R bookdown"
 author: "Peng Zhao"
 date: "`r Sys.Date()`"
 output:
@@ -16,7 +16,7 @@ output:
     pandoc_args: --chapters
     quote_footer: ["\\begin{flushright}", "\\end{flushright}"]
 #    dev: "cairo_pdf"
-bibliography: ['d:/Dropbox/Literature/zhaor.bib']
+bibliography: ['bib/zhaor.bib']
 biblio-style: apalike
 link-citations: yes
 colorlinks: no  

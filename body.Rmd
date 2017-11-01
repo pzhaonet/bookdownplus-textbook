@@ -29,17 +29,19 @@ I expected someone to cut it for me. I was too hungry to wait and I was helping 
 
 'bookdownplus' is an extension of 'bookdown'. It is a collection of multiple templates, which I have been collecting since years ago on the basis of LaTeX, and have been tailoring them so that I can work happily under the umbrella of 'bookdown'. 'bookdownplus' helps you (and me) write varied types of books and documents.  This book you are reading at the moment was exactly produced by 'bookdownplus'.
 
-I believe some official 'bookdown' templates will be available in the near future, but I cannot wait. Can you? I am afraid that the cake will not be fresh any more.
+'bookdownplus' was developed on Windows OS. It has not fully been tested on MacOS or Linux yet. Therefore the examples given in this book should be reproduced on Windows. I am not sure how bookdownplus performs on other OS. Please let me know if there is any problem.
+
+I believe some official 'bookdown' templates will be available in the near future, but I cannot wait. Can you? If so, I am afraid that the cake will not be fresh any more.
 
 \m{The former project was called bookdown-plus, providing a folder for users to download and modify. It was later abandoned because it was not so convenient as an R package.}
 
-'bookdownplus' is a knife for cutting the 'bookdown' cake. Feel free to join me in sharpening it if you would like to.
+'bookdownplus' is a knife for cutting the 'bookdown' cake. Frankly speaking, I am not an expert to cut this cake. Feel free to join me in sharpening it if you would like to.
 
 ## Why 'bookdownplus' {#why__bookdownplus_}
 
 A tasty cake is not necessarily easy to cut. 'bookdown' is not easy for beginners. Try reading the official manual of 'bookdown'^[https://bookdown.org/yihui/bookdown/]. If you are able to build your own book in one hour, I am sure you are a genius and please send me a postcard with your signature. An R beginner might be confused or depressed in struggling in the flood of LaTeX, YAML, Markdown, Pandoc, etc. It would be a pity if users stop their steps at the door and give up the courage of entering the wonderful world of 'bookdown'.
 
-'bookdownplus' is the easiest shortcut to the world of 'bookdown'. With **just one single command** users can get a demo book (or multiple demo books) in .pdf or .doc, or even more formats (see Chapter \@ref(quick_start)). 'bookdownplus' extends the features of 'bookdown', and simplifies the procedure. Users only have to choose a template, clarify the book title and author name, and then focus on writing the text. No need to struggle in YAML and LaTeX.
+'bookdownplus' is the easiest shortcut to the world of 'bookdown'. With **just one single command** users can get a demo book (or multiple demo books) in .pdf or .doc, or even more formats (see Chapter \@ref(quickstart) ).  'bookdownplus' extends the features of 'bookdown', and simplifies the procedure. Users only have to choose a template, clarify the book title and author name, and then focus on writing the text. No need to struggle in YAML and LaTeX.
 
 With 'bookdownplus' you can easily:
 
@@ -83,7 +85,13 @@ With 'bookdownplus' you can easily:
 
 As some codes in 'bookdownplus' were collected long time ago, and some might be re-used and re-re-used many time before apprearing in 'bookdownplus', I might miss some citations. It would be appreciated if you find them and let me know.
 
-# Quick Start {#quick_start}
+## About this book
+
+This book is a tutorial or a documentation of 'bookdownplus'. Beginners could read Chapter \@ref(quickstart) to get a general idea of how bookdownplus works. Chapter \@ref(basic) could be skipped for the first time but could be referred later.  From Chapter \@ref(simple) to \@ref(academic), the templates in bookdownplus are introduced one by one in detail in four groups. Finally Chapter \@ref(advanced)  provides some information for Chinese users, mind map fans, and those who would like to contribute to bookdownplus.
+
+You do not have to read this book if you can play well with bookdown or bookdownplus. However, Chapter \@ref(basic) could always be useful as a cheat sheet of bookdown or markdown syntax. 
+
+# Quick start {#quickstart}
 
 ## Preparation {#preparation}
 
@@ -128,13 +136,18 @@ Beginners can follow the three steps given below:
 
 **Step 1. Generate a demo book** 
 
-Firstly check your working directory (`getwd()`) and make sure that it is empty. 'bookdownplus' will generate lots of files. An empty folder as a working directory is highly recommended. If you don't know how to change your working directory with R command, you can use RStudio to create a new project (File -- New Project - New Directory -- Empty Project) and work always in this project.
+1. Make sure you are working in an empty directory, because 'bookdownplus' will generate lots of files. It is highly recommended not mix them with your old files. You could either use the function `setwd()` to set your working directory as the empty folder. or use RStudio to create a new project (File -- New Project - New Directory -- Empty Project) in a new folder and work always in this project.
 
-Run the following codes:
+2. Load the bookdownplus package by typing:
 
 ```{r}
 require(bookdownplus)
 ```
+
+in the console window (or select the  "Packages" Tab in the lower right pane, search for the bookdownplus package and tick its check mark).
+
+3. Run the following codes so as to get a demo book:
+
 ``` r
 bookdownplus()
 ```
@@ -143,19 +156,21 @@ Although there are many arguments available in `bookdownplus()`, you can simply 
 
 Now a demo file named `*.pdf` in `_book/` folder in your working directory is generated automatically. Open it with any pdf viewer so as to get an impression.
 
-**Step 2. Write your own book**
+**Step 2. Write your own book on the basis of the demo book**
 
 You can see some other files (e.g. 'index.Rmd', 'body.Rmd', 'bookdownplus.Rproj') and folders. Write your own texts in `body.Rmd` and revise the author and the book title in `index.Rmd`. You can use RStudio or any other text editor (but please don't use Microsoft Word, believe it or not).
 
 **Step 3. Build your book**
 
-After writing some texts, open `bookdownplus.Rproj` with RStudio, and press `ctrl+shift+b` to build your own lovely book.
+After writing some texts, open `bookdownplus.Rproj` with RStudio, and click the 'Build' tab in the upper right pane. Ether click on the "Build Book" tab for producing all formats or select the desired format.
 
-If you run `bookdownplus()` again in the same working directory, new 'index.Rmd' and 'body.Rmd' will be created, and you may find the old 'index.Rmd' and 'body.Rmd' gone, which might contain your own texts in them. Don't panic. They have been moved to the '/backup' folder automatically with a timestamp added in the file names.
+Instead of clicking the 'Build' tab, you can use the shortcut `ctrl-shift-b` (Windows) or `cmd-shift-b` (Mac) for building all formats.
+
+ `bookdownplus()`  is designed for creating a demo book at the very beginning of your writing. After you start your own text, you can totally forget `bookdownplus()` and work with 'bookdown' pakcage. However, if you run `bookdownplus()` again in the same working directory, new 'index.Rmd' and 'body.Rmd' will be created, and you may find the old 'index.Rmd' and 'body.Rmd' gone, which might contain your own texts in them. Don't panic. They have been moved to the '/backup' folder automatically with a time stamp added in the file names.
 
 ## More output formats
 
-By default, the book is built in a pdf file. From 'bookdownplus v1.0.3', users can get more output formats, including word (Microsoft Word), html (any web browser) and epub (for smart phones, or displayed by Calibre on desktop computers). From 'bookdownplus v1.2.0', uses can see the available output formats by running:
+By default of bookdownplus, the book is built in a pdf file. From 'bookdownplus v1.0.3', users can get more output formats, including word (Microsoft Word), html (any web browser) and epub (for smart phones, or displayed by Calibre on desktop computers).  md (markdown) output is supported from bookdownplus v1.3.1 besides pdf by default. From 'bookdownplus v1.2.0', uses can see the available output formats by running:
 
 ```{r}
 more_output()
@@ -201,6 +216,13 @@ for (i in template()[1:19])
   bookdownplus(template = i, more_output = more_output()[1:3])
 ```
 
+If your computer does not support Chinese characters in the demo books, you might encounter some errors. You can run the following codes instead, which exclude the Chinese templates:
+
+```r
+for (i in template()[-c(grep('_zh$', template()), 20)]) 
+  bookdownplus(template = i, more_output = more_output()[1:3])
+```
+
 **Magic II**
 
 Run the following codes. You will get all the demo files for different fonts, themes and styles from the 'mail' template:
@@ -227,7 +249,7 @@ As mentioned before, 'bookdownplus' generates multiple files. Most of them are u
 
 - If you are an expert, I would suggest that you could pick out those useful demo files in each sub-folder of your working directory, keep them, and remove the redundant files. In the future version of 'bookdownplus', redundant files might be filtered automatically if necessary.
 
-Furthermore, I have been developing some other packages, which bring more features intoF 'bookdown', such as:
+Furthermore, I have been developing some other packages, which bring more features into 'bookdown', such as:
 
 - [mindr](https://cran.r-project.org/package=mindr) [@R-mindr], which can extract the outline of your book and turn it into a mind map, 
 
@@ -271,7 +293,7 @@ marks                              output
 `<pzhao@pzhao.net>`                <pzhao@pzhao.net> email
 `![](hyperlink of figure)`         insert a figure
 `> quote`                          quote
-`` `code` ``                       `code`
+\texttt{`code`}                    `code`
 `# Chapter One`                    chapter title
 `1. First`                         numbered list 
 `- First`                          unnumbered list
@@ -347,7 +369,7 @@ or with R codes:
 
 Bibliography entries must be saved in .bib.
 
-Citation: `[@R-bookdown]`
+Citation: `[@R-bookdown]` , `[@zhao2017; @xie2016]`
 
 Bibliography: `# References {-}`
 
@@ -362,13 +384,14 @@ beginr::bib(c("bookdownplus", "beginr"))
 ### Theorems, lemma, definitions, etc. {#theorems__lemma__definitions__etc_}
 
 Full name 	Abbreviations
----------- --------------  
+---------- --------------
 theorems    thm
 lemma	      lem  
 definition	def        
 corollary	  cor     
 proposition prp
-example	    ex
+example	    exm
+exercise       exr
 
 r {Full name, label=, name=}
 
@@ -728,7 +751,7 @@ The procedure of creating a poster template is different from other 'bookdownplu
 - Install [Python 2](https://www.python.org/downloads/windows/).
 
 - Install [Python filter support for Pandoc](https://pypi.python.org/pypi/pandocfilters):
-on a Windows command prompt, type `pip install pandocfilters`
+  on a Windows command prompt, type `pip install pandocfilters`
 
 - Install [SumatraPDF](http://www.sumatrapdfreader.org/download-free-pdf-viewer.html) for auto-refresh of PDF previews
 
@@ -886,9 +909,9 @@ Here is some hints from my experience on creating a new template from am existin
 - Cut the template into 'template_yours.tex' and 'index.Rmd' in the following way:
 
   - The main body of the LaTeX are the part between `\begin{document}` and `\end{document}`. Replace the main body with `$body$`, which will be filled with 'body.Rmd'. You can use any demo 'body*.Rmd' created by 'bookdownplus'.
-  
+
   - Use any 'index.Rmd' created by 'bookdownplus' and modify the name of the LaTex template in 'index.Rmd'.
-  
+
 - If the LaTeX template is simple enough, now you may build this template book with 'bookdown'. 
 
 - Usually it won't work. A good-looking LaTeX template is most likely complicated, especially those in Chinese. Probably you have to modify the preamble, pick out some parts and save them and specify them in 'index.Rmd'. See the official manual of 'bookdown'^[https://bookdown.org/yihui/bookdown/yaml-options.html].
