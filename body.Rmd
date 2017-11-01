@@ -106,7 +106,7 @@ install.packages('bookdown')
 install.packages('servr')
 ```
 
-Additionally, if you want to produce a poster, phython must be installed before using, and the path of phython might have to be added to the environmental variables for Windows users. The usage of the poster template is described in Chapter \@ref(poster).
+Additionally, if you want to produce a poster, python must be installed before using, and the path of python might have to be added to the environmental variables for Windows users. The usage of the poster template is described in Chapter \@ref(poster).
 
 ## Installation of 'bookdownplus' {#installation_of__bookdownplus_}
 
