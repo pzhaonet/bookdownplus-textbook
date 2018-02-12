@@ -317,7 +317,7 @@ marks                              output
 
 A figure can be inserted with R plotting codes:
 
-    `r ''````{r, fig.cap='caption', out.width='80%', 
+    `r ''````{r fig1, fig.cap='caption', out.width='80%', 
     fig.align='center', echo=FALSE}
     plot(1:10)
     ```
