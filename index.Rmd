@@ -1,6 +1,6 @@
 --- 
 title: "R bookdownplus Textbook"
-subtitle: "Authoring Varied Types of Books and Documents Easily with R bookdown"
+subtitle: "Authoring Assorted Books and Documents Easily with R bookdown"
 author: "Peng Zhao"
 date: "`r Sys.Date()`"
 output:
@@ -28,7 +28,7 @@ site: bookdown::bookdown_site
 description: "A tutorial to `R bookdownplus`, an extension of `R bookdown` package. This books shows helps you write academic journal articles, guitar books, chemical equations, mails, calendars, and diaries, on the basis of R `bookdown`."
 github-repo: "pzhaonet/bookdownplus-textbook"
 url: 'https\://bookdown.org/pzhao/bookdownplus/'
-cover-image: "images/cover.jpg"
+cover-image: images/cover.jpg
 ---
 
 # Introduction {#introduction}
