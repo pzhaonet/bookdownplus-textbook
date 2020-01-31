@@ -186,7 +186,7 @@ Then all the required output files are in `_book/` folder.
 
 ## More templates
 
-By default, the demo book is built from the 'theis_classic' template. From 'bookdownplus v1.2.0', uses can see the available templates by running:
+By default, the demo book is built from the 'thesis_classic' template. From 'bookdownplus v1.2.0', uses can see the available templates by running:
 
 ```{r}
 template()
