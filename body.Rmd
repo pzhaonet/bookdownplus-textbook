@@ -652,21 +652,21 @@ The content of the calendar can be revised in 'body.tex'. There are examples and
 
 Writing academic articles with 'bookdown' was my original intention of developing 'bookdownplus'. This chapter comes so late because I would not like those non-academic users to be scared. Actually, writing academic articles is the most beautiful essence of 'bookdown' from my point of view. Only in an academic article can users utilize the full support of superscripts, subscripts, footnotes, equations, tables, reproducible figures, citations, and cross-references.
 
-An academic article produced with 'bookdownplus' looks like Fig. \@ref(fig:imgarticle). You can write such an article with the 'article' template by simply running:
+An academic article produced with 'bookdownplus' looks like Fig. \@ref(fig:imgarticle). You can write such an article with the 'copernicus' template by simply running:
 
 ```{r, eval=FALSE}
-bookdownplus(template = 'article')
+bookdownplus(template = 'copernicus')
 ```
-Your will get a book file named 'article.pdf' in '_book/' folder as an example.
+Your will get a book file named 'copernicus.pdf' in '_book/' folder as an example.
 
-```{r imgarticle, fig.cap="An academic article produced by the 'article' tempalte.", out.width='80%', fig.align='center', echo=FALSE}
+```{r imgarticle, fig.cap="An academic article produced by the 'copernicus' template.", out.width='80%', fig.align='center', echo=FALSE}
 knitr::include_graphics("images/article_cropped.png")
 ```
 
 If you would like to specify the title and author, you can either run the following code instead:
 
 ```{r, eval=FALSE}
-bookdownplus(template = 'article',
+bookdownplus(template = 'copernicus',
              author = 'John Smith',
              title = 'My article')
 ```
@@ -675,7 +675,7 @@ bookdownplus(template = 'article',
 In your working directory you could now open 'bookdownplus.Rproj' with RStudio. 
 Write your own text in 'index.Rmd' and 'body.Rmd', and press 'ctrl+shift+b' to build your own article. You could revise the title and author list in 'index.Rmd'.
 
-By default, the 'article' templates uses the two-columned LaTeX package by Copernicus Publications ^[http://publications.copernicus.org/for_authors/latex_instructions.html]. They provide a template for discussion layout as well, which was tailored as the 'discussion' template:
+By default, the 'copernicus' templates uses the two-columned LaTeX package by Copernicus Publications ^[http://publications.copernicus.org/for_authors/latex_instructions.html]. They provide a template for discussion layout as well, which was tailored as the 'discussion' template:
 
 ```{r, eval=FALSE}
 bookdownplus(template = 'discussion')
@@ -800,7 +800,7 @@ bookdownplus(template = 'chemistry')
 
 Your will get a book file named 'chemistry.pdf' in '_book/' folder as an example.
 
-```{r imgchemistry, fig.cap="A chemistry book produced by the 'chemistry' tempalte.", out.width='80%', fig.align='center', echo=FALSE}
+```{r imgchemistry, fig.cap="A chemistry book produced by the 'chemistry' template.", out.width='80%', fig.align='center', echo=FALSE}
 knitr::include_graphics("images/chemistry_cropped.png")
 ```
 
